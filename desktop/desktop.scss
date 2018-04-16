@@ -1,3 +1,359 @@
-body {
-  background-color: pink;
+.d-header {
+  background-color: #01377B;
+  min-height: 60px;
+}
+
+.d-header #site-logo {
+  max-height: 20px;
+}
+
+.d-header_menu {
+  background-color: #0047A4;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+
+.d-header_menu .d-header_menu_list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.d-header_menu .d-header_menu_list > li {
+  list-style: none;
+  color: #fff;
+  float: left;
+  margin-right: 50px;
+}
+
+.d-header_menu .d-header_menu_list a {
+  color: #fff;
+}
+
+.nav-pills > li {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li > a.active {
+  background-color: #0162DD;
+}
+
+.d-header button.sign-up-button::before {
+  color: #fff;
+}
+
+.d-header button.login-button .fa-user {
+  color: #fff;
+}
+
+.categoty-menu > li {
+  list-style: none;
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
+.categoty-menu > li image {
+  width: 100%;
+}
+
+.categoty-menu .categoty-menu_text {
+  color: #fff;
+  position: absolute;
+  bottom: 45px;
+  z-index: 999;
+  left: 10px;
+  font-size: 11px;
+  line-height: 0.5em;
+  width: 215px;
+}
+
+.categoty-menu .categoty-menu_text::after {
+  content: '';
+  width: 27px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}
+
+.i-newcar::after {
+  background: url(images/category_icon.svg) no-repeat -1px -4px;
+}
+
+.i-motor::after {
+  background: url(images/category_icon.svg) no-repeat -50px -3px;
+}
+
+.i-carcare::after {
+  background: url(images/category_icon.svg) no-repeat -97px -4px;
+}
+
+.i-user::after {
+  background: url(images/category_icon.svg) no-repeat -1px -48px;
+}
+
+.i-usedcar::after {
+  background: url(images/category_icon.svg) no-repeat -50px -48px;
+}
+
+.i-disscuss::after {
+  background: url(images/category_icon.svg) no-repeat -97px -48px;
+}
+
+.categoty-menu h4 {
+  color: #fff;
+}
+
+.categoty-menu {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+/* topic-list */
+.anon .topic-list-main-link a.title:visited:not(.badge-notification),
+.anon .topic-list .main-link a.title:visited:not(.badge-notification),
+.topic-list .anon .main-link a.title:visited:not(.badge-notification),
+.anon .latest-topic-list-item .main-link a.title:visited:not(.badge-notification),
+.latest-topic-list-item .anon .main-link a.title:visited:not(.badge-notification) {
+  color: #151B22;
+}
+
+.topic-list .topic-excerpt {
+  color: #8A9BAD;
+}
+
+.heatmap-high, .heatmap-high a {
+  color: #FE6C04 !important;
+}
+
+.coldmap-high {
+  color: #8A9BAD !important;
+}
+
+a:visited, a:hover {
+  color: #FE6C04;
+}
+
+a {
+  color: #FE6C04;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.table tbody tr,
+.topic-list > tbody > tr,
+.topic-list > thead > tr,
+.category-list > tbody > tr,
+.category-list > thead > tr,
+.latest-topic-list .table-heading,
+.latest-topic-list-item,
+.user-main .user-content .user-invite-list tr,
+.admin-contents table:not(.pika-table) tr {
+  border-bottom: 1px solid #CFD6DF;
+}
+
+.topic-list .sorting {
+  color: #FE6C04;
+}
+
+.table thead td,
+.table thead th,
+.topic-list thead td,
+.topic-list thead th,
+.category-list thead td,
+.category-list thead th,
+.latest-topic-list .more-topics,
+.latest-topic-list .table-heading,
+.user-main .user-content .user-invite-list th,
+.admin-contents table:not(.pika-table) thead td,
+.admin-contents table:not(.pika-table) thead th,
+.permalinks .col.heading,
+.screened-emails .col.heading,
+.screened-ip-addresses .col.heading,
+.screened-urls .col.heading,
+.search-logs-list .col.heading,
+.staff-actions .col.heading,
+.web-hook-events .col.heading {
+  color: #151B22;
+}
+
+.list-controls .nav > li > a {
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.upload-selector .radios .inputs input,
+.create-account input[type='email'],
+.create-account input[type='password'],
+.create-account input[type='text'],
+#login-form input[type='email'],
+#login-form input[type='password'],
+#login-form input[type='text'],
+.search-menu input[type='text'],
+.search.row input[type='date'],
+.search.row input[type='number'],
+.search.row input[type='text']:not(.user-selector),
+#share-link input[type='text'],
+.display-row input[type='text'],
+.user-preferences input[type='text'],
+.user-preferences .controls .static,
+.admin-container .controls.username input[type='text'],
+.admin-controls input[type='text'],
+.admin-customize.admin-embedding input[type='text'],
+.admin-customize .show-current-style h1 input[type='text'],
+div.badges .form-horizontal input[type='text'],
+div.groups .form-horizontal input[type='text'],
+div.web-hook-container .form-horizontal input[type='text'],
+.admin-container div.emoji input[type='text'],
+.content-editor .email-template input[type='text'],
+.email-preview-digest .controls input[type='text'],
+.permalink-title ~ div input[type='text'],
+.screened-ip-addresses .admin-container input[type='text'],
+.settings .setting .input-setting-string,
+.site-texts .search-area .site-text-search,
+.value-list input[type='text'],
+.value-list .value,
+.watched-word-form input[type='text'] {
+  background-color: #F7F8FA !important;
+}
+
+button#login-link, button#new-account-link {
+  background: transparent;
+  color: #55A0FE;
+}
+
+.nav-pills > li > a.btn-primary,
+.nav-stacked li > a.btn-primary,
+.content-list ul li > a.btn-primary,
+.btn-primary.btn,
+div.poll .poll-buttons a.btn-primary,
+.select-kit.category-drop.combo-box .btn-primary.category-drop-header,
+.select-kit.combo-box .btn-primary.select-kit-header,
+.modal-footer :not(.disclaimer) a.btn-primary,
+.btn-primary.pika-button, .btn-primary.pika-next,
+.btn-primary.pika-prev,
+#reply-control .btn-primary.toggle-preview,
+.fps-select a.btn-primary,
+#share-link .reply-as-new-topic a.btn-primary,
+.period-chooser.dropdown-select-box.select-kit .btn-primary.period-chooser-header,
+nav.post-controls button.btn-primary,
+nav.post-controls .btn-primary.show-replies,
+.small-action button.btn-primary,
+.topic-map .buttons .btn-primary.btn,
+.topic-map .link-summary a.btn-primary,
+.topic-meta-data .post-info a.btn-primary,
+.stats-section li.linked-stat a.btn-primary,
+.user-main .about .controls a.btn-primary,
+.badges-section.top-section > p .btn-primary.more {
+  color: #55A0FE;
+}
+
+body input[type="color"],
+body input[type="date"],
+body input[type="datetime"],
+body input[type="datetime-local"],
+body input[type="email"],
+body input[type="month"],
+body input[type="number"],
+body input[type="password"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="text"],
+body input[type="time"],
+body input[type="url"],
+body input[type="week"],
+body textarea,
+.controls .static,
+.value-list .value {
+  border-bottom: 2px solid #01377B;
+}
+
+.modal .modal-body label {
+  color: #252B31;
+}
+
+.create-account .instructions label {
+  color: #8A9BAD;
+}
+
+.btn-flat .d-icon {
+  opacity: 1;
+  color: #fff;
+}
+
+.select-kit.category-drop.combo-box .category-drop-header,
+.select-kit.combo-box .select-kit-header {
+  background-color: #ffffff !important;
+}
+
+.badge-wrapper.bullet span.badge-category {
+  color: #151B22;
+}
+
+.select-kit.combo-box.category-drop .select-kit-row .category-desc {
+  font-weight: normal;
+  color: #8F9FB0;
+}
+
+.select-kit .select-kit-row.is-highlighted {
+  background: #A4CCFF;
+}
+
+.drop-down-mode .d-header .icons .active .icon,
+.drop-down-visible .d-header .icons .active .icon {
+  background-color: #0162DD;
+  border: 0;
+  color: inherit;
+}
+
+.trapezoid {
+  border-top: 60px solid #FE5151;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 240px;
+  position: absolute;
+  bottom: 33px;
+}
+
+.color-pink {
+  border-top: 60px solid #FE5151;
+}
+
+.color-green {
+  border-top: 60px solid #1D942B;
+}
+
+.color-blue {
+  border-top: 60px solid #55A0FE;
+}
+
+.color-yellow {
+  border-top: 60px solid #FEC500;
+}
+
+.color-purple {
+  border-top: 60px solid #A556FF;
+}
+
+.color-brown {
+  border-top: 60px solid #8B572A;
+}
+
+@media only screen and (max-width: 1079px) {
+  .d-header_menu {
+    display: none;
+  }
+
+  #main-outlet {
+    padding-top: 35px;
+  }
 }
