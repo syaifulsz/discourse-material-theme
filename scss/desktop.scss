@@ -61,3 +61,41 @@ body .nav-pills>li>a {
 .drop-down-mode .d-header .icons .active .icon,.d-header .icons .icon:focus, .d-header .icons .icon:hover{
     background: #0162DD;
 }
+// post
+
+.topic-body{
+    background: #fff;
+}
+.table tbody tr, .topic-list>tbody>tr, .topic-list>thead>tr, .category-list>tbody>tr, .category-list>thead>tr, .latest-topic-list .table-heading, .latest-topic-list-item, .user-main .user-content .user-invite-list tr, .admin-contents table:not(.pika-table) tr{
+    border-bottom: 1px solid #CFD6DF;
+}
+
+.image-upload-controls .btn-primary.btn,
+.select-kit.category-drop.combo-box .btn-primary.category-drop-header,
+.select-kit.combo-box .btn-primary.select-kit-header,
+.list-controls .btn-primary.btn,
+.edit-category-modal .edit-category-tab-general section.field>.btn-primary.btn,
+.edit-category-modal .edit-category-tab-security section.field>.btn-primary.btn,
+#reply-control .submit-panel .btn-primary.btn,
+.fps-select a.btn-primary,
+.search.row>.btn-primary.btn,
+.search.row .new-topic-btn .btn-primary.btn,
+.search.row .search-bar .btn-primary.btn,
+.timeline-container .topic-timeline div>button.btn-primary.btn,
+.timeline-container .topic-timeline span>button.btn-primary.btn,
+.period-chooser.dropdown-select-box.select-kit .btn-primary.period-chooser-header,
+.top-title-buttons button.btn-primary,
+#topic-footer-buttons div>button.btn-primary.btn,
+#topic-footer-buttons span>button.btn-primary.btn,
+#topic-footer-buttons>button.btn-primary.btn,
+.display-row .controls a.btn-primary[data-ember-action]:not(.close),
+.user-main .user-right .list-actions .btn-primary.btn,
+.user-navigation .btn-primary.new-private-message,
+.user-preferences .btn-primary.btn,
+.badges-section.top-section>p .btn-primary.more,
+.admin-contents .btn-primary.btn,
+.screened-ip-addresses .actions.col a.btn-primary {
+    color: #fff;
+
+}
+//
