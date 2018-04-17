@@ -7,27 +7,14 @@
   max-height: 20px;
 }
 
-.d-header_menu {
-  background-color: #0047A4;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: -10px;
-  margin-top: 10px;
-}
-
-.d-header_menu .d-header_menu_list {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-}
-
-.d-header_menu .d-header_menu_list > li {
-  list-style: none;
+.d-header-icons {
   color: #fff;
-  float: left;
-  margin-right: 50px;
 }
 
-.d-header_menu .d-header_menu_list a {
-  color: #fff;
+.d-header-icons .d-icon {
+  opacity: 1;
+}
+
+.topic-list {
+  background: #fff;
 }
