@@ -27,6 +27,10 @@
   color: #8A9BAD;
 }
 
+body .nav-pills > li > a {
+  color: #151B22;
+}
+
 .nav-pills > li {
   background-color: #fff;
   border-radius: 2px;
@@ -34,10 +38,14 @@
 }
 
 .nav-pills > li.active > a, .nav-pills > li > a.active {
-  color: #151B22;
+  color: #fff;
   background: #0162DD;
 }
 
 .select-kit.combo-box.category-drop {
   background-color: #fff;
+}
+
+.topic-list-item.visited a.title:not(.badge-notification) {
+  color: #151B22;
 }
