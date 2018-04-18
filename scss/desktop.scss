@@ -164,3 +164,36 @@ section.about,
 .dropdown-menu, .popup-menu, .autocomplete, .select-kit .select-kit-body, .select-kit.category-drop.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-body, #topic-entrance, nav.post-controls .post-admin-menu{
     background: #fff;
 }
+.admin-controls .nav.nav-pills li.active a{
+    background:#0162DD;
+}
+.btn.no-text .fa{
+    color: #fff;
+}
+.menu-panel{
+    background: #fff;
+}
+.image-upload-controls .btn,
+.select-kit.category-drop.combo-box .category-drop-header,
+.select-kit.combo-box .select-kit-header,
+.list-controls .btn,
+.edit-category-modal .edit-category-tab-general section.field>.btn,
+.edit-category-modal .edit-category-tab-security section.field>.btn,
+#reply-control .submit-panel .btn, .fps-select a, .search.row>.btn,
+.search.row .new-topic-btn .btn, .search.row .search-bar .btn,
+.timeline-container .topic-timeline div>button.btn,
+.timeline-container .topic-timeline span>button.btn,
+.period-chooser.dropdown-select-box.select-kit .period-chooser-header,
+.top-title-buttons button,
+#topic-footer-buttons div>button.btn,
+#topic-footer-buttons span>button.btn,
+#topic-footer-buttons>button.btn,
+.display-row .controls a[data-ember-action]:not(.close),
+.user-main .user-right .list-actions .btn,
+.user-navigation .new-private-message,
+.user-preferences .btn,
+.badges-section.top-section>p .more, 
+.admin-contents .btn,
+.screened-ip-addresses .actions.col a{
+    background:#fff;
+}
