@@ -56,6 +56,73 @@ body {
   z-index: 1005;
 }
 
+.categoty-menu > li {
+  list-style: none;
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
+.categoty-menu > li image {
+  width: 100%;
+}
+
+.categoty-menu .categoty-menu_text {
+  color: #fff;
+  position: absolute;
+  bottom: 45px;
+  z-index: 999;
+  left: 10px;
+  font-size: 11px;
+  line-height: 0.5em;
+  width: 215px;
+}
+
+.categoty-menu .categoty-menu_text::after {
+  content: '';
+  width: 27px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}
+
+.i-newcar::after {
+  background: url(images/category_icon.svg) no-repeat -1px -4px;
+}
+
+.i-motor::after {
+  background: url(images/category_icon.svg) no-repeat -50px -3px;
+}
+
+.i-carcare::after {
+  background: url(images/category_icon.svg) no-repeat -97px -4px;
+}
+
+.i-user::after {
+  background: url(images/category_icon.svg) no-repeat -1px -48px;
+}
+
+.i-usedcar::after {
+  background: url(images/category_icon.svg) no-repeat -50px -48px;
+}
+
+.i-disscuss::after {
+  background: url(images/category_icon.svg) no-repeat -97px -48px;
+}
+
+.categoty-menu h4 {
+  color: #fff;
+}
+
+.categoty-menu {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
 #main {
   position: inherit;
 }
