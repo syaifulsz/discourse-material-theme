@@ -102,6 +102,47 @@ body .nav-pills>li>a {
 .topic-list .badge-wrapper{
     background:#EBEBEB;
 }
+
+.alert,
+.fps-result,
+.search-advanced,
+#share-link,
+.top-lists,
+.category-boxes .category-box-inner,
+.category-boxes-with-topics .category-box-inner,
+.small-action,
+.topic-body,
+.admin-user .details,
+.stats-section,
+.top-sub-section.likes-section,
+.top-sub-section.links-section,
+.top-sub-section.replies-section,
+.top-sub-section.summary-user-list,
+.top-sub-section.topics-section,
+.user-main .about,
+.user-main .user-content .user-invite-controls,
+.user-main .user-stream,
+.user-nav,
+.user-preferences,
+.badge-card,
+.user-info,
+#user-card,
+section.about,
+.static-faq .body-page [itemprop='mainContentOfPage'],
+.static-privacy .body-page [itemprop='mainContentOfPage'],
+.static-tos .body-page [itemprop='mainContentOfPage'],
+.admin-controls, .admin-customize .admin-container>.about,
+.admin-customize .show-current-style,
+.admin-contents div.groups>.span13,
+.admin-container div.user-fields .user-field,
+.content-body, .content-editor,
+.email-preview-digest .controls,
+.embedding-secondary,
+.admin-contents .groups-bulk,
+.settings,
+.site-texts {
+    background:#fff;
+}
 // modal
 .create-account tr.input input{
     background:#F7F8FA;
@@ -109,4 +150,17 @@ body .nav-pills>li>a {
 .bootbox.modal, .modal-inner-container{
     background:#fff;
 }
-//
+.d-header button.login-button .fa-user{
+    color: #fff;
+}
+// user-card
+#user-card.show-badges{
+    background:#fffl
+}
+// admin-user
+.table, .topic-list, .category-list, .latest-topic-list, .admin-contents table:not(.pika-table){
+    background: #fff;
+}
+.dropdown-menu, .popup-menu, .autocomplete, .select-kit .select-kit-body, .select-kit.category-drop.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-body, #topic-entrance, nav.post-controls .post-admin-menu{
+    background: #fff;
+}
