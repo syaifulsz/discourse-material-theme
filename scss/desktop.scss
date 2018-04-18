@@ -153,6 +153,9 @@ section.about,
 .d-header button.login-button .fa-user{
     color: #fff;
 }
+.d-header button.sign-up-button::before{
+    color: #fff;
+}
 // user-card
 #user-card.show-badges{
     background:#fffl
@@ -192,7 +195,7 @@ section.about,
 .user-main .user-right .list-actions .btn,
 .user-navigation .new-private-message,
 .user-preferences .btn,
-.badges-section.top-section>p .more, 
+.badges-section.top-section>p .more,
 .admin-contents .btn,
 .screened-ip-addresses .actions.col a{
     background:#fff;
