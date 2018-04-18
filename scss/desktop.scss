@@ -22,18 +22,27 @@ body{
 .d-header-icons .d-icon{
     opacity: 1;
 }
+.docked .d-header_menu{
+    position: fixed;
+    backface-visibility: hidden;
+    width:100%;
+}
 .d-header_menu {
     background-color: #0047A4;
     margin-left:-10px;
     margin-right:-10px;
     margin-bottom:-10px;
     margin-top:10px;
+    position: relative;
+    z-index: 9999;
+    top: 56px;
 
 }
 .d-header_menu .d-header_menu_list{
     margin-top:10px;
     margin-bottom: 10px;
     margin-left:5px;
+    overflow: hidden;
 }
 .d-header_menu .d-header_menu_list>li{
     list-style: none;
