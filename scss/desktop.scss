@@ -56,17 +56,18 @@ body{
 .menu-panel{
     z-index: 1005;
 }
-//category 
+//category
 .categoty-menu>li{
     list-style: none;
     float: left;
     margin: 10px;
     position: relative;
-
+    width:345px;
+    height: 208px;
+    background: #efefef;
 }
 
 .categoty-menu>li image{
-
     width:100%;
 }
 
