@@ -102,6 +102,40 @@ div.web-hook-container .form-horizontal input[type='text'],
   border-bottom: 2px solid #01377b;
 }
 
+.trapezoid {
+  border-top: 60px solid #FE5151;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 240px;
+  position: absolute;
+  bottom: 33px;
+}
+
+.color-pink {
+  border-top: 60px solid #FE5151;
+}
+
+.color-green {
+  border-top: 60px solid #1D942B;
+}
+
+.color-blue {
+  border-top: 60px solid #55A0FE;
+}
+
+.color-yellow {
+  border-top: 60px solid #FEC500;
+}
+
+.color-purple {
+  border-top: 60px solid #A556FF;
+}
+
+.color-brown {
+  border-top: 60px solid #8B572A;
+}
+
 .categoty-menu > li {
   list-style: none;
   float: left;
