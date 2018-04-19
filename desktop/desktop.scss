@@ -1,5 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  color: #151B22;
 }
 
 .d-header {
@@ -467,4 +468,12 @@ div.web-hook-container .form-horizontal input[type='text'],
 
 .nav-stacked li.active > a, .content-list ul li.active > a, .nav-stacked li > a.active, .content-list ul li > a.active {
   color: #fff;
+}
+
+#suggested-topics > h3:first-of-type {
+  background: #fff;
+}
+
+.widget-button .btn.no-text .fa {
+  color: #151B22;
 }
