@@ -361,3 +361,9 @@ div.web-hook-container .form-horizontal input[type='text'],
 .watched-word-form input[type='text']{
     background:#F7F8FA;
 }
+.admin-contents .btn-danger.btn{
+    color: #fff;
+}
+.nav-stacked li.active>a, .content-list ul li.active>a, .nav-stacked li>a.active, .content-list ul li>a.active{
+    color: #fff;
+}
