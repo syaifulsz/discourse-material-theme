@@ -64,6 +64,8 @@ body {
   width: 345px;
   height: 208px;
   background: #efefef;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .categoty-menu > li image {
@@ -91,27 +93,27 @@ body {
 }
 
 .i-newcar::after {
-  background: url(images/category_icon.svg) no-repeat -1px -4px;
+  background: url(uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -1px -4px;
 }
 
 .i-motor::after {
-  background: url(images/category_icon.svg) no-repeat -50px -3px;
+  background: url(uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -50px -3px;
 }
 
 .i-carcare::after {
-  background: url(images/category_icon.svg) no-repeat -97px -4px;
+  background: url(uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -97px -4px;
 }
 
 .i-user::after {
-  background: url(images/category_icon.svg) no-repeat -1px -48px;
+  background: url(uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -1px -48px;
 }
 
 .i-usedcar::after {
-  background: url(images/category_icon.svg) no-repeat -50px -48px;
+  background: url(uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -50px -48px;
 }
 
 .i-disscuss::after {
-  background: url(images/category_icon.svg) no-repeat -97px -48px;
+  background: url(uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -97px -48px;
 }
 
 .categoty-menu h4 {
