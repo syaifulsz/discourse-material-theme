@@ -51,6 +51,15 @@ html{
 .menu-panel{
     z-index: 1005;
 }
+.extra-info-wrapper .topic-link{
+    color: #fff;
+}
+.extra-info-wrapper .topic-statuses .unpinned{
+    color: #fff;
+}
+.extra-info-wrapper .badge-wrapper.bullet span.badge-category{
+    color: #fff;
+}
 //category
 .categoty-menu>li{
     list-style: none;
