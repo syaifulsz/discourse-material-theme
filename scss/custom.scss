@@ -60,6 +60,25 @@ html{
 .extra-info-wrapper .badge-wrapper.bullet span.badge-category{
     color: #fff;
 }
+body input[type="color"],
+body input[type="date"],
+body input[type="datetime"],
+body input[type="datetime-local"],
+body input[type="email"],
+body input[type="month"],
+body input[type="number"],
+body input[type="password"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="text"],
+body input[type="time"],
+body input[type="url"],
+body input[type="week"],
+body textarea,
+.controls .static,
+.value-list .value{
+    border-bottom: 2px solid rgba(1,55,123,1);
+}
 //category
 .categoty-menu>li{
     list-style: none;
