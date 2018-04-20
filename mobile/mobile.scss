@@ -242,6 +242,10 @@ body .boxed .contents {
   display: block;
 }
 
+.d-header_menu_desktop.hidden {
+  display: none;
+}
+
 .list-controls {
   margin-top: 0;
 }
