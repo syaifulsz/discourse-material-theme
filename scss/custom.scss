@@ -2,6 +2,12 @@ html{
       font-family: 'Open Sans', sans-serif;
       color: #151B22;
 }
+body button,
+body input,
+body select,
+body textarea{
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 // header
@@ -113,26 +119,28 @@ div.web-hook-container .form-horizontal input[type='text'],
     height: 0;
     width: 240px;
     position: absolute;
-    bottom: 33px
+    bottom: 33px;
+
+    &.color-pink{
+        border-color: #FE5151;
+    }
+    &.color-green{
+        border-color: #1D942B;
+    }
+    &.color-blue{
+        border-color: #55A0FE;
+    }
+    &.color-yellow{
+        border-color: #FEC500;
+    }
+    &.color-purple{
+        border-color: #A556FF;
+    }
+    &.color-brown{
+        border-color: #8B572A;
+    }
 }
-.color-pink{
-    border-top: 60px solid #FE5151;
-}
-.color-green{
-    border-top: 60px solid #1D942B;
-}
-.color-blue{
-    border-top: 60px solid #55A0FE;
-}
-.color-yellow{
-    border-top: 60px solid #FEC500;
-}
-.color-purple{
-    border-top: 60px solid #A556FF;
-}
-.color-brown{
-    border-top: 60px solid #8B572A;
-}
+
 //category
 .categoty-menu>li{
     list-style: none;
@@ -451,4 +459,13 @@ div.web-hook-container .form-horizontal input[type='text'],
 }
 .widget-button.btn.no-text .fa{
     color: #151B22;
+}
+@media (max-width: 850px){
+    .topic-list tbody td:first-of-type,
+    .topic-list tbody th:first-of-type{
+        padding-left:10px;
+    }
+    .main-link{
+        min-width:304px;
+    }
 }
