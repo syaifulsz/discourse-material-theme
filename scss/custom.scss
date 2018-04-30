@@ -137,7 +137,8 @@ div.web-hook-container .form-horizontal input[type='text'],
 
 .topic-thumbnail {
     border: 1px #d7d7d7 solid;
-    padding-right: 30px !important;
+    padding-right: 0 !important;
+    margin-right: 30px;
 }
 
 .topic-list {
