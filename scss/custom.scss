@@ -1,430 +1,97 @@
-html{
-      font-family: 'Open Sans', sans-serif;
-      color: #151B22;
+@import 'webboard/category';
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #151B22;
 }
+
 body button,
 body input,
 body select,
-body textarea{
+body textarea {
     font-family: 'Open Sans', sans-serif;
 }
-
-
 // header
-.d-header_menu_desktop  {
-    &.hidden{
+.d-header_menu_desktop {
+    &.hidden {
         display: block;
     }
 }
-.d-header_menu_mobile  {
-    &.hidden{
+
+.d-header_menu_mobile {
+    &.hidden {
         display: none;
     }
 }
-.d-header{
+
+.d-header {
     background-color: #01377B;
     min-height: 60px;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0), 0 1px 10px 0 rgba(0,0,0,0), 0 2px 4px -1px rgba(0,0,0,0);
 
-    #site-logo{
-        max-height:20px;
-        }
-}
-.d-header-icons{
-    color: #fff;
-}
-.d-header-icons .d-icon{
-    opacity: 1;
-}
-.docked {
-    .d-header_menu{
-        position: fixed;
-        backface-visibility: hidden;
-        width:100%;
+    #site-logo {
+        max-height: 20px;
     }
 }
+
+.d-header-icons {
+    color: #fff;
+}
+
+.d-header-icons .d-icon {
+    opacity: 1;
+}
+
+.docked {
+    .d-header_menu {
+        position: fixed;
+        backface-visibility: hidden;
+        width: 100%;
+    }
+}
+
 .d-header_menu {
     background-color: #0047A4;
     position: relative;
     z-index: 1000;
     top: 59px;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.4);
-
 }
-.d-header_menu .d-header_menu_desktop{
-    margin-top:10px;
+
+.d-header_menu .d-header_menu_desktop {
+    margin-top: 10px;
     margin-bottom: 10px;
-    margin-left:5px;
+    margin-left: 5px;
     overflow: hidden;
 }
-.d-header_menu .d-header_menu_desktop >li{
+
+.d-header_menu .d-header_menu_desktop > li {
     list-style: none;
     color: #fff;
     float: left;
     margin-right: 50px;
-
 }
-.d-header_menu .d-header_menu_desktop a{
+
+.d-header_menu .d-header_menu_desktop a {
     color: #fff;
 }
-.menu-panel{
+
+.menu-panel {
     z-index: 1005;
 }
-.extra-info-wrapper .topic-link{
-    color: #fff;
-}
-.extra-info-wrapper .topic-statuses .unpinned{
-    color: #fff;
-}
-.extra-info-wrapper .badge-wrapper.bullet span.badge-category{
-    color: #fff;
-}
-.upload-selector .radios .inputs input,
-.create-account input[type='email'],
-.create-account input[type='password'],
-.create-account input[type='text'],
-#login-form input[type='email'],
-#login-form input[type='password'],
-#login-form input[type='text'],
-.search-menu input[type='text'],
-.search.row input[type='date'],
-.search.row input[type='number'],
-.search.row input[type='text']:not(.user-selector),
-#share-link input[type='text'],
-.display-row input[type='text'],
-.user-preferences input[type='text'],
-.user-preferences .controls .static,
-.admin-container .controls.username input[type='text'],
-.admin-controls input[type='text'],
-.admin-customize.admin-embedding input[type='text'],
-.admin-customize .show-current-style h1 input[type='text'],
-div.badges .form-horizontal input[type='text'],
-div.groups .form-horizontal input[type='text'],
-div.web-hook-container .form-horizontal input[type='text'],
-.admin-container div.emoji input[type='text'],
-.content-editor .email-template input[type='text'],
-.email-preview-digest .controls input[type='text'],
-.permalink-title ~ div input[type='text'],
-.screened-ip-addresses .admin-container input[type='text'],
-.settings .setting .input-setting-string,
-.site-texts .search-area .site-text-search,
-.value-list input[type='text'],
-.value-list .value, .watched-word-form input[type='text']{
-    border-bottom: 2px solid rgba(1,55,123,1);
-}
-.trapezoid {
-    border-top: 60px solid #FE5151;
-    border-left: 0 solid transparent;
-    border-right: 20px solid transparent;
-    height: 0;
-    width: 240px;
-    position: absolute;
-    bottom: 33px;
 
-    &.color-pink{
-        border-color: #FE5151;
-    }
-    &.color-green{
-        border-color: #1D942B;
-    }
-    &.color-blue{
-        border-color: #55A0FE;
-    }
-    &.color-yellow{
-        border-color: #FEC500;
-    }
-    &.color-purple{
-        border-color: #A556FF;
-    }
-    &.color-brown{
-        border-color: #8B572A;
-    }
-}
-
-//category
-.categoty-menu>li{
-    list-style: none;
-    float: left;
-    margin: 10px;
-    position: relative;
-    width:345px;
-    height: 208px;
-    background: #efefef;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.categoty-menu>li image{
-    width:100%;
-}
-
-.categoty-menu .categoty-menu_text {
-    color: #fff;
-    position: absolute;
-    bottom: 45px;
-    z-index: 999;
-    left: 10px;
-    font-size: 11px;
-    line-height: 0.5em;
-    width:215px;
-
-
-}
-.categoty-menu .categoty-menu_text::after {
-    content: '';
-    width: 27px;
-    height: 25px;
-    position: absolute;
-    right: 10px;
-    top: 4px;
-
-}
-.i-newcar::after{
-    background:url(/uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -1px -4px;
-}
-.i-motor::after{
-    background: url(/uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -50px -3px;
-}
-.i-carcare::after{
-    background: url(/uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -97px -4px;
-}
-.i-user::after{
-    background: url(/uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -1px -48px;
-}
-.i-usedcar::after{
-    background: url(/uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -50px -48px;
-}
-.i-disscuss::after{
-    background: url(/uploads/default/original/1X/47b669c5056f206764a152b61a9b72b7159827fa.svg) no-repeat -97px -48px;
-}
-
-.categoty-menu h4 {
+.extra-info-wrapper .topic-link {
     color: #fff;
 }
 
-
-.categoty-menu{
-    margin-left: -10px;
-    margin-right:-10px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    overflow: hidden;
-}
-
-//body
-#main{
-    position: inherit;
-}
-.topic-list{
-    background: #fff;
-}
-.topic-list .main-link a.title{
-    color: #151B22;
-}
-.topic-list .topic-excerpt{
-    color: #8A9BAD;
-}
-body .nav-pills>li>a {
-    color: #151B22;
-}
-.nav-pills>li{
-    background-color: #fff;
-    border-radius: 2px;
-    margin-left:5px;
-}
-.nav-pills>li.active>a, .nav-pills>li>a.active{
-    color: #fff;
-    background: #0162DD;
-
-}
-.select-kit.combo-box.category-drop{
-    background-color: #fff;
-}
-
-.topic-list-item.visited a.title:not(.badge-notification){
-    color: #151B22;
-}
-
-.topic-list .topic-excerpt a{
-    color: #FE6C04;
-}
-.list-controls .btn{
-    background:#fff;
-}
-
-.drop-down-mode .d-header .icons .active .icon,.d-header .icons .icon:focus, .d-header .icons .icon:hover{
-    background: #0162DD;
-}
-// post
-
-.table thead td,
-.table thead th,
-.topic-list thead td,
-.topic-list thead th,
-.category-list thead td,
-.category-list thead th,
-.latest-topic-list .more-topics,
-.latest-topic-list .table-heading,
-.user-main .user-content .user-invite-list th,
-.admin-contents table:not(.pika-table) thead td,
-.admin-contents table:not(.pika-table) thead th,
-.permalinks .col.heading,
-.screened-emails .col.heading,
-.screened-ip-addresses .col.heading,
-.screened-urls .col.heading,
-.search-logs-list .col.heading,
-.staff-actions .col.heading,
-.web-hook-events .col.heading{
-    color: #151B22;
-}
-.topic-body{
-    background: #fff;
-}
-.table tbody tr, .topic-list>tbody>tr, .topic-list>thead>tr, .category-list>tbody>tr, .category-list>thead>tr, .latest-topic-list .table-heading, .latest-topic-list-item, .user-main .user-content .user-invite-list tr, .admin-contents table:not(.pika-table) tr{
-    border-bottom: 1px solid #CFD6DF;
-}
-
-.image-upload-controls .btn-primary.btn,
-.select-kit.category-drop.combo-box .btn-primary.category-drop-header,
-.select-kit.combo-box .btn-primary.select-kit-header,
-.list-controls .btn-primary.btn,
-.edit-category-modal .edit-category-tab-general section.field>.btn-primary.btn,
-.edit-category-modal .edit-category-tab-security section.field>.btn-primary.btn,
-#reply-control .submit-panel .btn-primary.btn,
-.fps-select a.btn-primary,
-.search.row>.btn-primary.btn,
-.search.row .new-topic-btn .btn-primary.btn,
-.search.row .search-bar .btn-primary.btn,
-.timeline-container .topic-timeline div>button.btn-primary.btn,
-.timeline-container .topic-timeline span>button.btn-primary.btn,
-.period-chooser.dropdown-select-box.select-kit .btn-primary.period-chooser-header,
-.top-title-buttons button.btn-primary,
-#topic-footer-buttons div>button.btn-primary.btn,
-#topic-footer-buttons span>button.btn-primary.btn,
-#topic-footer-buttons>button.btn-primary.btn,
-.display-row .controls a.btn-primary[data-ember-action]:not(.close),
-.user-main .user-right .list-actions .btn-primary.btn,
-.user-navigation .btn-primary.new-private-message,
-.user-preferences .btn-primary.btn,
-.badges-section.top-section>p .btn-primary.more,
-.admin-contents .btn-primary.btn,
-.screened-ip-addresses .actions.col a.btn-primary {
-    color: #fff;
-
-}
-
-.topic-list .badge-wrapper{
-    background:#EBEBEB;
-}
-
-.alert,
-.fps-result,
-.search-advanced,
-#share-link,
-.top-lists,
-.category-boxes .category-box-inner,
-.category-boxes-with-topics .category-box-inner,
-.small-action,
-.topic-body,
-.admin-user .details,
-.stats-section,
-.top-sub-section.likes-section,
-.top-sub-section.links-section,
-.top-sub-section.replies-section,
-.top-sub-section.summary-user-list,
-.top-sub-section.topics-section,
-.user-main .about,
-.user-main .user-content .user-invite-controls,
-.user-main .user-stream,
-.user-nav,
-.user-preferences,
-.badge-card,
-.user-info,
-#user-card,
-section.about,
-.static-faq .body-page [itemprop='mainContentOfPage'],
-.static-privacy .body-page [itemprop='mainContentOfPage'],
-.static-tos .body-page [itemprop='mainContentOfPage'],
-.admin-controls, .admin-customize .admin-container>.about,
-.admin-customize .show-current-style,
-.admin-contents div.groups>.span13,
-.admin-container div.user-fields .user-field,
-.content-body, .content-editor,
-.email-preview-digest .controls,
-.embedding-secondary,
-.admin-contents .groups-bulk,
-.settings,
-.site-texts {
-    background:#fff;
-}
-// modal
-.create-account tr.input input{
-    background:#F7F8FA;
-}
-.bootbox.modal, .modal-inner-container{
-    background:#fff;
-}
-.d-header button.login-button .fa-user{
+.extra-info-wrapper .topic-statuses .unpinned {
     color: #fff;
 }
-.d-header button.sign-up-button::before{
+
+.extra-info-wrapper .badge-wrapper.bullet span.badge-category {
     color: #fff;
 }
-// user-card
-#user-card.show-badges{
-    background:#fffl
-}
-// admin-user
-.table, .topic-list, .category-list, .latest-topic-list, .admin-contents table:not(.pika-table){
-    background: #fff;
-}
-.dropdown-menu, .popup-menu, .autocomplete, .select-kit .select-kit-body, .select-kit.category-drop.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-body, #topic-entrance, nav.post-controls .post-admin-menu{
-    background: #fff;
-}
-.admin-controls .nav.nav-pills li.active a{
-    background:#0162DD;
-}
-.btn.no-text .fa{
-    color: #fff;
-}
-.menu-panel{
-    background: #fff;
-}
-.image-upload-controls .btn,
-.select-kit.category-drop.combo-box .category-drop-header,
-.select-kit.combo-box .select-kit-header,
-.list-controls .btn,
-.edit-category-modal .edit-category-tab-general section.field>.btn,
-.edit-category-modal .edit-category-tab-security section.field>.btn,
-#reply-control .submit-panel .btn, .fps-select a, .search.row>.btn,
-.search.row .new-topic-btn .btn, .search.row .search-bar .btn,
-.timeline-container .topic-timeline div>button.btn,
-.timeline-container .topic-timeline span>button.btn,
-.period-chooser.dropdown-select-box.select-kit .period-chooser-header,
-.top-title-buttons button,
-#topic-footer-buttons div>button.btn,
-#topic-footer-buttons span>button.btn,
-#topic-footer-buttons>button.btn,
-.display-row .controls a[data-ember-action]:not(.close),
-.user-main .user-right .list-actions .btn,
-.user-navigation .new-private-message,
-.user-preferences .btn,
-.badges-section.top-section>p .more,
-.admin-contents .btn,
-.screened-ip-addresses .actions.col a{
-    background:#fff;
-}
-.upload-selector .radios .inputs input,
-.create-account input[type='email'],
-.create-account input[type='password'],
-.create-account input[type='text'],
-#login-form input[type='email'],
-#login-form input[type='password'],
-#login-form input[type='text'],
-.search-menu input[type='text'],
-.search.row input[type='date'],
-.search.row input[type='number'],
-.search.row input[type='text']:not(.user-selector),
+
 #share-link input[type='text'],
 .display-row input[type='text'],
 .user-preferences input[type='text'],
@@ -445,30 +112,370 @@ div.web-hook-container .form-horizontal input[type='text'],
 .site-texts .search-area .site-text-search,
 .value-list input[type='text'],
 .value-list .value,
-.watched-word-form input[type='text']{
-    background:#F7F8FA;
+.watched-word-form input[type='text'],
+.create-account input[type='email'],
+.create-account input[type='password'],
+.create-account input[type='text'],
+#login-form input[type='email'],
+#login-form input[type='password'],
+#login-form input[type='text'],
+.search-menu input[type='text'],
+.search.row input[type='date'],
+.search.row input[type='number'],
+.search.row input[type='text']:not(.user-selector),
+.upload-selector .radios .inputs input {
+    border-bottom: 2px solid rgba(1,55,123,1);
 }
-.admin-contents .btn-danger.btn{
-    color: #fff;
+
+.trapezoid {
+    border-top: 60px solid #FE5151;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 240px;
+    position: absolute;
+    bottom: 33px;
+
+    &.color-pink {
+        border-color: #FE5151;
+    }
+
+    &.color-green {
+        border-color: #1D942B;
+    }
+
+    &.color-blue {
+        border-color: #55A0FE;
+    }
+
+    &.color-yellow {
+        border-color: #FEC500;
+    }
+
+    &.color-purple {
+        border-color: #A556FF;
+    }
+
+    &.color-brown {
+        border-color: #8B572A;
+    }
 }
-.nav-stacked li.active>a, .content-list ul li.active>a, .nav-stacked li>a.active, .content-list ul li>a.active{
-    color: #fff;
+//body
+#main {
+    position: inherit;
 }
-#suggested-topics>h3:first-of-type{
-    background:#fff;
+
+.topic-list {
+    background: #fff;
 }
-.widget-button.btn.no-text .fa{
+
+.topic-list .main-link a.title {
     color: #151B22;
 }
-@media (max-width: 850px){
+
+.topic-list .topic-excerpt {
+    color: #8A9BAD;
+}
+
+body .nav-pills > li > a {
+    color: #151B22;
+}
+
+.nav-pills > li {
+    background-color: #fff;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.nav-pills > li > a.active,
+.nav-pills > li.active > a {
+    color: #fff;
+    background: #0162DD;
+}
+
+.select-kit.combo-box.category-drop {
+    background-color: #fff;
+}
+
+.topic-list-item.visited a.title:not(.badge-notification) {
+    color: #151B22;
+}
+
+.topic-list .topic-excerpt a {
+    color: #FE6C04;
+}
+
+.list-controls .btn {
+    background: #fff;
+}
+
+.d-header .icons .icon:focus,
+.d-header .icons .icon:hover,
+.drop-down-mode .d-header .icons .active .icon {
+    background: #0162DD;
+}
+// post
+
+.admin-contents table:not(.pika-table) thead td,
+.admin-contents table:not(.pika-table) thead th,
+.category-list thead td,
+.category-list thead th,
+.latest-topic-list .more-topics,
+.latest-topic-list .table-heading,
+.permalinks .col.heading,
+.screened-emails .col.heading,
+.screened-ip-addresses .col.heading,
+.screened-urls .col.heading,
+.search-logs-list .col.heading,
+.staff-actions .col.heading,
+.table thead td,
+.table thead th,
+.topic-list thead td,
+.topic-list thead th,
+.user-main .user-content .user-invite-list th,
+.web-hook-events .col.heading {
+    color: #151B22;
+}
+
+.topic-body {
+    background: #fff;
+}
+
+.admin-contents table:not(.pika-table) tr,
+.category-list > tbody > tr,
+.category-list > thead > tr,
+.latest-topic-list .table-heading,
+.latest-topic-list-item,
+.table tbody tr,
+.topic-list > tbody > tr,
+.topic-list > thead > tr,
+.user-main .user-content .user-invite-list tr {
+    border-bottom: 1px solid #CFD6DF;
+}
+
+#reply-control .submit-panel .btn-primary.btn,
+#topic-footer-buttons > button.btn-primary.btn,
+#topic-footer-buttons div > button.btn-primary.btn,
+#topic-footer-buttons span > button.btn-primary.btn,
+.admin-contents .btn-primary.btn,
+.badges-section.top-section > p .btn-primary.more,
+.display-row .controls a.btn-primary[data-ember-action]:not(.close),
+.edit-category-modal .edit-category-tab-general section.field > .btn-primary.btn,
+.edit-category-modal .edit-category-tab-security section.field > .btn-primary.btn,
+.fps-select a.btn-primary,
+.image-upload-controls .btn-primary.btn,
+.list-controls .btn-primary.btn,
+.period-chooser.dropdown-select-box.select-kit .btn-primary.period-chooser-header,
+.screened-ip-addresses .actions.col a.btn-primary,
+.search.row .new-topic-btn .btn-primary.btn,
+.search.row .search-bar .btn-primary.btn,
+.search.row > .btn-primary.btn,
+.select-kit.category-drop.combo-box .btn-primary.category-drop-header,
+.select-kit.combo-box .btn-primary.select-kit-header,
+.timeline-container .topic-timeline div > button.btn-primary.btn,
+.timeline-container .topic-timeline span > button.btn-primary.btn,
+.top-title-buttons button.btn-primary,
+.user-main .user-right .list-actions .btn-primary.btn,
+.user-navigation .btn-primary.new-private-message,
+.user-preferences .btn-primary.btn {
+    color: #fff;
+}
+
+.topic-list .badge-wrapper {
+    background: #EBEBEB;
+}
+
+#share-link,
+#user-card,
+.admin-user .details,
+.alert,
+.badge-card,
+.category-boxes .category-box-inner,
+.category-boxes-with-topics .category-box-inner,
+.fps-result,
+.search-advanced,
+.small-action,
+.static-faq .body-page [itemprop='mainContentOfPage'],
+.static-privacy .body-page [itemprop='mainContentOfPage'],
+.static-tos .body-page [itemprop='mainContentOfPage'],
+.admin-controls,
+.admin-customize .admin-container > .about,
+.admin-customize .show-current-style,
+.admin-contents div.groups > .span13,
+.admin-container div.user-fields .user-field,
+.content-body,
+.content-editor,
+.email-preview-digest .controls,
+.embedding-secondary,
+.admin-contents .groups-bulk,
+.settings,
+.site-texts,
+.stats-section,
+.top-lists,
+.top-sub-section.likes-section,
+.top-sub-section.links-section,
+.top-sub-section.replies-section,
+.top-sub-section.summary-user-list,
+.top-sub-section.topics-section,
+.topic-body,
+.user-info,
+.user-main .about,
+.user-main .user-content .user-invite-controls,
+.user-main .user-stream,
+.user-nav,
+.user-preferences,
+section.about {
+    background: #fff;
+}
+// modal
+
+.create-account tr.input input {
+    background: #F7F8FA;
+}
+
+.bootbox.modal,
+.modal-inner-container {
+    background: #fff;
+}
+
+.d-header button.login-button .fa-user {
+    color: #fff;
+}
+
+.d-header button.sign-up-button::before {
+    color: #fff;
+}
+// user-card
+
+#user-card.show-badges {
+    background: #fffl;
+}
+// admin-user
+
+.admin-contents table:not(.pika-table),
+.category-list,
+.latest-topic-list,
+.table,
+.topic-list {
+    background: #fff;
+}
+
+#topic-entrance,
+.autocomplete,
+.dropdown-menu,
+.popup-menu,
+.select-kit .select-kit-body,
+.select-kit.category-drop.combo-box .select-kit-body,
+.select-kit.dropdown-select-box .select-kit-body,
+.select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-body,
+nav.post-controls .post-admin-menu {
+    background: #fff;
+}
+
+.admin-controls .nav.nav-pills li.active a {
+    background: #0162DD;
+}
+
+.btn.no-text .fa {
+    color: #fff;
+}
+
+.menu-panel {
+    background: #fff;
+}
+
+#reply-control .submit-panel .btn,
+#topic-footer-buttons > button.btn,
+#topic-footer-buttons div > button.btn,
+#topic-footer-buttons span > button.btn,
+.admin-contents .btn,
+.badges-section.top-section > p .more,
+.display-row .controls a[data-ember-action]:not(.close),
+.edit-category-modal .edit-category-tab-general section.field > .btn,
+.edit-category-modal .edit-category-tab-security section.field > .btn,
+.fps-select a,
+.image-upload-controls .btn,
+.list-controls .btn,
+.period-chooser.dropdown-select-box.select-kit .period-chooser-header,
+.screened-ip-addresses .actions.col a,
+.search.row .new-topic-btn .btn,
+.search.row .search-bar .btn,
+.search.row > .btn,
+.select-kit.category-drop.combo-box .category-drop-header,
+.select-kit.combo-box .select-kit-header,
+.timeline-container .topic-timeline div > button.btn,
+.timeline-container .topic-timeline span > button.btn,
+.top-title-buttons button,
+.user-main .user-right .list-actions .btn,
+.user-navigation .new-private-message,
+.user-preferences .btn {
+    background: #fff;
+}
+
+#share-link input[type='text'],
+.display-row input[type='text'],
+.user-preferences input[type='text'],
+.user-preferences .controls .static,
+.admin-container .controls.username input[type='text'],
+.admin-controls input[type='text'],
+.admin-customize.admin-embedding input[type='text'],
+.admin-customize .show-current-style h1 input[type='text'],
+div.badges .form-horizontal input[type='text'],
+div.groups .form-horizontal input[type='text'],
+div.web-hook-container .form-horizontal input[type='text'],
+.admin-container div.emoji input[type='text'],
+.content-editor .email-template input[type='text'],
+.email-preview-digest .controls input[type='text'],
+.permalink-title ~ div input[type='text'],
+.screened-ip-addresses .admin-container input[type='text'],
+.settings .setting .input-setting-string,
+.site-texts .search-area .site-text-search,
+.value-list input[type='text'],
+.value-list .value,
+.watched-word-form input[type='text'],
+.create-account input[type='email'],
+.create-account input[type='password'],
+.create-account input[type='text'],
+#login-form input[type='email'],
+#login-form input[type='password'],
+#login-form input[type='text'],
+.search-menu input[type='text'],
+.search.row input[type='date'],
+.search.row input[type='number'],
+.search.row input[type='text']:not(.user-selector),
+.upload-selector .radios .inputs input {
+    background: #F7F8FA;
+}
+
+.admin-contents .btn-danger.btn {
+    color: #fff;
+}
+
+.content-list ul li > a.active,
+.content-list ul li.active > a,
+.nav-stacked li > a.active,
+.nav-stacked li.active > a {
+    color: #fff;
+}
+
+#suggested-topics > h3:first-of-type {
+    background: #fff;
+}
+
+.widget-button.btn.no-text .fa {
+    color: #151B22;
+}
+@media (max-width: 850px) {
     .topic-list tbody td:first-of-type,
-    .topic-list tbody th:first-of-type{
-        padding-left:10px;
+    .topic-list tbody th:first-of-type {
+        padding-left: 10px;
     }
-    .main-link{
-        min-width:304px;
+
+    .main-link {
+        min-width: 304px;
     }
-    .categoty-menu>li{
-        width:100%;
+
+    .categoty-menu > li {
+        width: 100%;
     }
 }
