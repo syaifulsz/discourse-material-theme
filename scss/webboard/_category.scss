@@ -5,19 +5,43 @@
     margin-bottom: 40px;
     overflow: hidden;
 
-    > li {
+    .category-menu__item {
+        display: inline-block;
         list-style: none;
         float: left;
         margin: 10px;
         position: relative;
-        width:345px;
+        width: 345px;
         height: 208px;
         background: #efefef;
         border-radius: 5px;
         overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
 
-        image {
-            width:100%;
+        &.category-menu__item--newcar {
+            background-image: url(unquote('$webboard__category_newcar'));
+        }
+
+        &.category-menu__item--motor {
+            background-image: url(unquote('$webboard__category_motor'));
+        }
+
+        &.category-menu__item--carcare {
+            background-image: url(unquote('$webboard__category_carcare'));
+        }
+
+        &.category-menu__item--user {
+            background-image: url(unquote('$webboard__category_user'));
+        }
+
+        &.category-menu__item--usedcar {
+            background-image: url(unquote('$webboard__category_usedcar'));
+        }
+
+        &.category-menu__item--discuss {
+            background-image: url(unquote('$webboard__category_discuss'));
         }
     }
 
