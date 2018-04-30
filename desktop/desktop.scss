@@ -62,27 +62,27 @@
 }
 
 .i-newcar::after {
-  background: url(false) no-repeat -1px -4px;
+  background: url($webboard__icon_sprite) no-repeat -1px -4px;
 }
 
 .i-motor::after {
-  background: url(false) no-repeat -50px -3px;
+  background: url($webboard__icon_sprite) no-repeat -50px -3px;
 }
 
 .i-carcare::after {
-  background: url(false) no-repeat -97px -4px;
+  background: url($webboard__icon_sprite) no-repeat -97px -4px;
 }
 
 .i-user::after {
-  background: url(false) no-repeat -1px -48px;
+  background: url($webboard__icon_sprite) no-repeat -1px -48px;
 }
 
 .i-usedcar::after {
-  background: url(false) no-repeat -50px -48px;
+  background: url($webboard__icon_sprite) no-repeat -50px -48px;
 }
 
 .i-disscuss::after {
-  background: url(false) no-repeat -97px -48px;
+  background: url($webboard__icon_sprite) no-repeat -97px -48px;
 }
 
 .admin-contents .btn {
