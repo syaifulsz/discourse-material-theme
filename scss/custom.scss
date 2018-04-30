@@ -1,4 +1,5 @@
 @import 'webboard/category';
+@import 'webboard/trapezoid';
 @import 'webboard/custom';
 
 html {
@@ -128,46 +129,23 @@ div.web-hook-container .form-horizontal input[type='text'],
     border-bottom: 2px solid rgba(1,55,123,1);
 }
 
-.trapezoid {
-    border-top: 60px solid #FE5151;
-    border-left: 0 solid transparent;
-    border-right: 20px solid transparent;
-    height: 0;
-    width: 240px;
-    position: absolute;
-    bottom: 33px;
 
-    &.color-pink {
-        border-color: #FE5151;
-    }
-
-    &.color-green {
-        border-color: #1D942B;
-    }
-
-    &.color-blue {
-        border-color: #55A0FE;
-    }
-
-    &.color-yellow {
-        border-color: #FEC500;
-    }
-
-    &.color-purple {
-        border-color: #A556FF;
-    }
-
-    &.color-brown {
-        border-color: #8B572A;
-    }
-}
 //body
 #main {
     position: inherit;
 }
 
+.topic-thumbnail {
+    border: 1px #d7d7d7 solid;
+    padding-right: 30px !important;
+}
+
 .topic-list {
     background: #fff;
+}
+
+.topic-title {
+    line-height: 30px;
 }
 
 .topic-list .main-link a.title {
@@ -176,6 +154,7 @@ div.web-hook-container .form-horizontal input[type='text'],
 
 .topic-list .topic-excerpt {
     color: #8A9BAD;
+    line-height: 22px;
 }
 
 body .nav-pills > li > a {
@@ -466,6 +445,7 @@ div.web-hook-container .form-horizontal input[type='text'],
 .widget-button.btn.no-text .fa {
     color: #151B22;
 }
+
 @media (max-width: 850px) {
     .topic-list tbody td:first-of-type,
     .topic-list tbody th:first-of-type {
