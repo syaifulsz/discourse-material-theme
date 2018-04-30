@@ -46,29 +46,26 @@
     }
 }
 
-@if ($webboard__icon_sprite) {
+.i-newcar::after {
+    background: url($webboard__icon_sprite) no-repeat -1px -4px;
+}
 
-    .i-newcar::after {
-        background: url($webboard__icon_sprite) no-repeat -1px -4px;
-    }
+.i-motor::after {
+    background: url($webboard__icon_sprite) no-repeat -50px -3px;
+}
 
-    .i-motor::after {
-        background: url($webboard__icon_sprite) no-repeat -50px -3px;
-    }
+.i-carcare::after {
+    background: url($webboard__icon_sprite) no-repeat -97px -4px;
+}
 
-    .i-carcare::after {
-        background: url($webboard__icon_sprite) no-repeat -97px -4px;
-    }
+.i-user::after {
+    background: url($webboard__icon_sprite) no-repeat -1px -48px;
+}
 
-    .i-user::after {
-        background: url($webboard__icon_sprite) no-repeat -1px -48px;
-    }
+.i-usedcar::after {
+    background: url($webboard__icon_sprite) no-repeat -50px -48px;
+}
 
-    .i-usedcar::after {
-        background: url($webboard__icon_sprite) no-repeat -50px -48px;
-    }
-
-    .i-disscuss::after {
-        background: url($webboard__icon_sprite) no-repeat -97px -48px;
-    }
+.i-disscuss::after {
+    background: url($webboard__icon_sprite) no-repeat -97px -48px;
 }
