@@ -16,14 +16,14 @@
         background: #efefef;
         border-radius: 5px;
         overflow: hidden;
-        // background-repeat: no-repeat;
-        // background-size: cover;
-        // background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
 
-        // &.category-menu__item--newcar {
-        //     background-image: url(unquote('$webboard__category_newcar'));
-        // }
-        //
+        &.category-menu__item--newcar {
+            background-image: url(unquote('$webboard__category_newcar'));
+        }
+        
         // &.category-menu__item--motor {
         //     background-image: url(unquote('$webboard__category_motor'));
         // }
