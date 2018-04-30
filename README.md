@@ -1,2 +1,2 @@
-# discourse-material-theme
-Material Design for Discourse
+# AutospinnWebboard
+Material Design Theme for Autospinn Webboard
