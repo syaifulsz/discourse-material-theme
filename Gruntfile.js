@@ -79,7 +79,7 @@ module.exports = function(grunt) {
     sass: {
       options: {
         precision: 6,
-        sourcemap: 'none',
+        // sourcemap: 'none',
         style: 'expanded'
       },
       common: {
@@ -118,7 +118,7 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'default',
     [
-      'scsslint',
+      // 'scsslint',
       'sass',
       'concat',
       'postcss'
