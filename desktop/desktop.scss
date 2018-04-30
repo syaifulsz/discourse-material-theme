@@ -40,6 +40,9 @@
   background-size: cover;
   background-position: center top;
 }
+.category-menu .category-menu__item.category-menu__item--newcar {
+  background-image: url($webboard__category_newcar);
+}
 .category-menu .category-menu__text {
   color: #fff;
   position: absolute;
