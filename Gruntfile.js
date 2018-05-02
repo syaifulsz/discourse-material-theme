@@ -11,6 +11,7 @@ module.exports = function(grunt) {
         concat: {
             options: {
                 banner: '$webboard__category_newcar: \'\' !default;\n' +
+                '$webboard__category_motor: \'\' !default;\n' +
                 '$webboard__icon_sprite: \'\' !default;\n' +
                 '@function brightness($color) {\n' +
                 '  @return ((red($color) * .299) + (green($color) * .587) + (blue($color) * .114));\n' +

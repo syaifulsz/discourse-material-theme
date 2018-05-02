@@ -1,4 +1,5 @@
 $webboard__category_newcar: '' !default;
+$webboard__category_motor: '' !default;
 $webboard__icon_sprite: '' !default;
 @function brightness($color) {
   @return ((red($color) * .299) + (green($color) * .587) + (blue($color) * .114));
