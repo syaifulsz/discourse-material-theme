@@ -1,3 +1,5 @@
+$webboard__category_newcar: '' !default;
+
 @function brightness($color) {
   @return ((red($color) * .299) + (green($color) * .587) + (blue($color) * .114));
 }
