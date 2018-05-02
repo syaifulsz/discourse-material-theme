@@ -12,6 +12,10 @@ module.exports = function(grunt) {
             options: {
                 banner: '$webboard__category_newcar: \'\' !default;\n' +
                 '$webboard__category_motor: \'\' !default;\n' +
+                '$webboard__category_carcare: \'\' !default;\n' +
+                '$webboard__category_user: \'\' !default;\n' +
+                '$webboard__category_usedcar: \'\' !default;\n' +
+                '$webboard__category_discuss: \'\' !default;\n' +
                 '$webboard__icon_sprite: \'\' !default;\n' +
                 '@function brightness($color) {\n' +
                 '  @return ((red($color) * .299) + (green($color) * .587) + (blue($color) * .114));\n' +
