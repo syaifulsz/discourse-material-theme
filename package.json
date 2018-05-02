@@ -1,10 +1,7 @@
 {
-  "name": "discourse-material-theme",
-  "author": "Daemon Pty Ltd",
-  "bugs": {
-    "url": "https://github.com/sesemaya/discourse-material-theme/issues"
-  },
-  "description": "Material Design for Discourse",
+  "name": "webboard-autospinn",
+  "author": "iCar Asia Limited",
+  "description": "Discourse Material Design Theme for Autospinn Webboard",
   "devDependencies": {
     "autoprefixer": "^8.2.0",
     "grunt": "^1.0.2",
@@ -12,14 +9,15 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-dev-update": "^2.0.0",
     "grunt-postcss": "^0.9.0",
-    "grunt-scss-lint": "^0.5.0",
+    "grunt-sass-lint": "^0.2.4",
     "load-grunt-tasks": "^3.5.2",
+    "node-sass": "^4.9.0",
     "time-grunt": "^1.4.0"
   },
   "engines": {
     "node": ">=4"
   },
-  "homepage": "https://labs.daemon.com.au/t/daemonite-material-discourse-theme/353",
+  "homepage": "https://webboard.autospinn.com",
   "keywords": [
     "discourse",
     "discourse-theme",
@@ -29,11 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sesemaya/discourse-material-theme.git"
+    "url": "https://github.com/syaifulsz/webboard-autospinn.git"
   },
-  "version": "1.1.1",
-  "dependencies": {
-    "first": "0.0.3",
-    "scsslint": "0.0.3"
-  }
+  "version": "1.1.1"
 }
