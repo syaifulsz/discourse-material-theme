@@ -82,12 +82,8 @@
   color: #fff;
 }
 
-.category-menu-newcar {
-  background: url($categoryMenuNewcar);
-}
-
-.category-menu-motor {
-  background: url($categoryMenuMotor);
+.category-menu__item--newcar {
+  background-image: url($webboard__category_newcar);
 }
 
 .trapezoid {
