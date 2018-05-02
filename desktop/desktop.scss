@@ -36,6 +36,9 @@
   background: #efefef;
   border-radius: 5px;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 .category-menu .category-menu__text {
   color: #fff;
@@ -80,17 +83,13 @@
 }
 
 .category-menu__item--newcar {
+  display: inline-block;
   background-image: url($webboard__category_newcar);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
 }
 
 .category-menu__item--motor {
+  display: inline-block;
   background-image: url($webboard__category_motor);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
 }
 
 .trapezoid {
