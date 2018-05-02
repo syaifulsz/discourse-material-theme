@@ -18,6 +18,14 @@
   }
 }
 
+.category-menu__item--newcar {
+  background-image: url($webboard__category_newcar);
+}
+
+.category-menu__item--motor {
+  background-image: url($webboard__category_motor);
+}
+
 .category-menu {
   margin-left: -10px;
   margin-right: -10px;
@@ -80,16 +88,6 @@
 }
 .category-menu h4 {
   color: #fff;
-}
-
-.category-menu__item--newcar {
-  display: inline-block;
-  background-image: url($webboard__category_newcar);
-}
-
-.category-menu__item--motor {
-  display: inline-block;
-  background-image: url($webboard__category_motor);
 }
 
 .trapezoid {
