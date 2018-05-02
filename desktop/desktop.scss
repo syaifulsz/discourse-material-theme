@@ -43,6 +43,21 @@
 .category-menu .category-menu__item.category-menu__item--newcar {
   background: url($webboard__category_newcar);
 }
+.category-menu .category-menu__item.category-menu__item--motor {
+  background: url($webboard__category_motor);
+}
+.category-menu .category-menu__item.category-menu__item--carcare {
+  background: url($webboard__category_carcare);
+}
+.category-menu .category-menu__item.category-menu__item--user {
+  background: url($webboard__category_user);
+}
+.category-menu .category-menu__item.category-menu__item--usedcar {
+  background: url($webboard__category_usedcar);
+}
+.category-menu .category-menu__item.category-menu__item--discuss {
+  background: url($webboard__category_discuss);
+}
 .category-menu .category-menu__text {
   color: #fff;
   position: absolute;
