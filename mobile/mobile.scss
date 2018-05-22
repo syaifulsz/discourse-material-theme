@@ -295,7 +295,6 @@ html {
 }
 
 .d-header {
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
   min-height: inherit;
   padding: inherit;
 }
@@ -306,6 +305,37 @@ html {
 .category-menu .category-menu__item {
   list-style: none;
   min-height: 75px;
+}
+.category-menu .category-menu__item.category-menu__item--newcar {
+  background: linear-gradient(to right, #da4545 0%, rgba(240, 181, 181, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da4545', endColorstr='#00ffffff',GradientType=1 );
+}
+.category-menu .category-menu__item.category-menu__item--motor {
+  background: linear-gradient(to right, #20a931 0%, rgba(166, 221, 173, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a931', endColorstr='#00ffffff',GradientType=1 );
+}
+.category-menu .category-menu__item.category-menu__item--carcare {
+  background: linear-gradient(to right, #fec500 0%, rgba(255, 232, 153, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec500', endColorstr='#00ffffff',GradientType=1 );
+}
+.category-menu .category-menu__item.category-menu__item--user {
+  background: linear-gradient(to right, #4989da 0%, rgba(182, 208, 240, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4989da', endColorstr='#00ffffff',GradientType=1 );
+}
+.category-menu .category-menu__item.category-menu__item--usedcar {
+  background: linear-gradient(to right, #a556ff 0%, rgba(219, 187, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a556ff', endColorstr='#00ffffff',GradientType=1 );
+}
+.category-menu .category-menu__item.category-menu__item--discuss {
+  background: linear-gradient(to right, #8b572a 0%, rgba(209, 188, 170, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b572a', endColorstr='#00ffffff',GradientType=1 );
+}
+.category-menu .category-menu__item .category-menu__text {
+  font-size: 16px;
+  color: #fff;
+}
+.category-menu .category-menu__item .category-menu__text .text-desc {
+  font-size: 12px;
 }
 
 .list-controls {
