@@ -344,6 +344,14 @@ html {
   color: #151B22;
 }
 
+.topic-list tbody td:first-of-type {
+  padding-left: inherit;
+}
+
+.topic-title .title {
+  color: #151B22;
+}
+
 .list-controls {
   margin-top: 0;
 }

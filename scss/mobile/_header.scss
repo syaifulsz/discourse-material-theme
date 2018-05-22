@@ -94,3 +94,12 @@ html {
         }
     }
 }
+.topic-list tbody td:first-of-type{
+    padding-left: inherit
+}
+
+.topic-title{
+    .title{
+        color: #151B22;
+    }
+}
