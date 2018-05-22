@@ -14,6 +14,18 @@
     height: auto;
   }
 }
+.d-header{
+    background-color: #01377B;
+}
+.d-header-icons{
+    color: #fff;
+}
+.btn-flat{
+    .d-icon{
+        opacity: 1;
+    }
+}
+
 // nut edit
 .d-header_menu_mobile.hidden{
     display: block;
