@@ -107,6 +107,15 @@ $webboard__icon_sprite: '' !default;
   color: #fff;
 }
 
+@media only screen and (max-width: 1090px) {
+  .category-menu {
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+  .category-menu .category-menu__item {
+    float: none;
+  }
+}
 .trapezoid {
   border-top: 60px solid #FE5151;
   border-left: 0 solid transparent;
