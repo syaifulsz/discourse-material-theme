@@ -304,7 +304,7 @@ html {
 }
 .category-menu .category-menu__item {
   list-style: none;
-  padding-left: 5px;
+  margin-bottom: 2px;
 }
 .category-menu .category-menu__item .category-menu__text {
   padding: 8px;
@@ -330,7 +330,7 @@ html {
   color: #a556ff;
   border-left: 3px solid #a556ff;
 }
-.category-menu .category-menu__item .category-menu__text.category-menu__text--discuss {
+.category-menu .category-menu__item .category-menu__text.category-menu__text--disscuss {
   color: #8b572a;
   border-left: 3px solid #8b572a;
 }
