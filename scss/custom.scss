@@ -464,6 +464,24 @@ div.web-hook-container .form-horizontal input[type='text'],
             display: block;
         }
     }
+    .d-header_menu_mobile{
+        width: 100%;
+        padding: 7px;
+
+        select{
+            -webkit-box-sizing: border-box;
+            border-radius: 3px;
+            -webkit-font-smoothing: inherit;
+            font-size: 13px;
+            background: #FFF;
+            height: 35px !important;
+            cursor: text;
+            display: inline-block;
+            border: 1px solid #DDD;
+            width: 100%;
+            margin-bottom: 0
+        }
+    }
     .topic-list tbody td:first-of-type,
     .topic-list tbody th:first-of-type {
         padding-left: 10px;
