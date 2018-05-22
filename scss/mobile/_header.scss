@@ -54,8 +54,6 @@ html {
         list-style: none;
         padding-left: 5px;
 
-
-
         .category-menu__text{
             padding: 8px;
             &.category-menu__text--newcar{
@@ -76,9 +74,10 @@ html {
             &.category-menu__text--discuss{
                 color: #8b572a;
             }
-
             h4{
                 font-size: 16px;
+                margin-bottom:0;
+                color: inherit;
             }
             .text-desc{
                 font-size: 12px;
