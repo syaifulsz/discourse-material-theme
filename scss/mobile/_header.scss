@@ -55,49 +55,33 @@ html {
         padding-left: 5px;
 
         &.category-menu__item--newcar{
-            background: -moz-linear-gradient(left, rgba(218,69,69,1) 0%, rgba(240,181,181,0) 60%, rgba(255,255,255,0) 100%);
-            background: -webkit-linear-gradient(left, rgba(218,69,69,1) 0%,rgba(240,181,181,0) 60%,rgba(255,255,255,0) 100%);
-            background: linear-gradient(to right, rgba(218,69,69,1) 0%,rgba(240,181,181,0) 60%,rgba(255,255,255,0) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da4545', endColorstr='#00ffffff',GradientType=1 );
+            background-color: #da4545;
         }
         &.category-menu__item--motor{
-            background: -moz-linear-gradient(left, rgba(32,169,49,1) 0%, rgba(166,221,173,0) 60%, rgba(255,255,255,0) 100%);
-            background: -webkit-linear-gradient(left, rgba(32,169,49,1) 0%,rgba(166,221,173,0) 60%,rgba(255,255,255,0) 100%);
-            background: linear-gradient(to right, rgba(32,169,49,1) 0%,rgba(166,221,173,0) 60%,rgba(255,255,255,0) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a931', endColorstr='#00ffffff',GradientType=1 );
+            background-color: #20a931;
         }
         &.category-menu__item--carcare{
-            background: -moz-linear-gradient(left, rgba(254,197,0,1) 0%, rgba(255,232,153,0) 60%, rgba(255,255,255,0) 100%);
-            background: -webkit-linear-gradient(left, rgba(254,197,0,1) 0%,rgba(255,232,153,0) 60%,rgba(255,255,255,0) 100%);
-            background: linear-gradient(to right, rgba(254,197,0,1) 0%,rgba(255,232,153,0) 60%,rgba(255,255,255,0) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec500', endColorstr='#00ffffff',GradientType=1 );
+            background-color: #fec500;
         }
         &.category-menu__item--user{
-            background: -moz-linear-gradient(left, rgba(73,137,218,1) 0%, rgba(182,208,240,0) 60%, rgba(255,255,255,0) 100%);
-            background: -webkit-linear-gradient(left, rgba(73,137,218,1) 0%,rgba(182,208,240,0) 60%,rgba(255,255,255,0) 100%);
-            background: linear-gradient(to right, rgba(73,137,218,1) 0%,rgba(182,208,240,0) 60%,rgba(255,255,255,0) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4989da', endColorstr='#00ffffff',GradientType=1 );
+            background-color: #4989da;
         }
         &.category-menu__item--usedcar{
-            background: -moz-linear-gradient(left, rgba(165,86,255,1) 0%, rgba(219,187,255,0) 60%, rgba(255,255,255,0) 100%);
-            background: -webkit-linear-gradient(left, rgba(165,86,255,1) 0%,rgba(219,187,255,0) 60%,rgba(255,255,255,0) 100%);
-            background: linear-gradient(to right, rgba(165,86,255,1) 0%,rgba(219,187,255,0) 60%,rgba(255,255,255,0) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a556ff', endColorstr='#00ffffff',GradientType=1 );
+            background-color: #a556ff;
         }
         &.category-menu__item--discuss{
-            background: -moz-linear-gradient(left, rgba(139,87,42,1) 0%, rgba(209,188,170,0) 60%, rgba(255,255,255,0) 100%);
-            background: -webkit-linear-gradient(left, rgba(139,87,42,1) 0%,rgba(209,188,170,0) 60%,rgba(255,255,255,0) 100%);
-            background: linear-gradient(to right, rgba(139,87,42,1) 0%,rgba(209,188,170,0) 60%,rgba(255,255,255,0) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b572a', endColorstr='#00ffffff',GradientType=1 );
+            background-color: #8b572a;
         }
 
         .category-menu__text{
             h4{
                 font-size: 16px;
                 color: #fff;
+                padding:8px;
             }
             .text-desc{
                 font-size: 12px;
+                color: #fff;
             }
         }
     }
