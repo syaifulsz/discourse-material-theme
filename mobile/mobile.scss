@@ -305,8 +305,6 @@ html {
 .category-menu .category-menu__item {
   list-style: none;
   margin-bottom: 2px;
-  list-style: none;
-  list-style: none;
   margin: 5px;
   background: #efefef;
   border-radius: 3px;
@@ -317,27 +315,27 @@ html {
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--newcar {
   color: #da4545;
-  border-left: 3px solid #da4545;
+  border-bottom: 1px solid #da4545;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--motor {
   color: #20a931;
-  border-left: 3px solid #20a931;
+  border-bottom: 1px  solid #20a931;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--carcare {
   color: #fec500;
-  border-left: 3px solid #fec500;
+  border-bottom: 1px solid #fec500;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--user {
   color: #4989da;
-  border-left: 3px solid #4989da;
+  border-bottom: 1px  solid #4989da;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--usedcar {
   color: #a556ff;
-  border-left: 3px solid #a556ff;
+  border-bottom: 1px  solid #a556ff;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--disscuss {
   color: #8b572a;
-  border-left: 3px solid #8b572a;
+  border-bottom: 1px  solid #8b572a;
 }
 .category-menu .category-menu__item .category-menu__text h4 {
   font-size: 16px;
@@ -347,6 +345,7 @@ html {
 .category-menu .category-menu__item .category-menu__text .text-desc {
   font-size: 12px;
   color: #151B22;
+  display: none;
 }
 
 .topic-list tbody td:first-of-type {
