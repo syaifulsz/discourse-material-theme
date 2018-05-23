@@ -301,13 +301,16 @@ html {
 
 .category-menu {
   margin: 0;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 .category-menu .category-menu__item {
   list-style: none;
   margin-bottom: 2px;
   margin: 5px;
-  background: #efefef;
+  background: #f5f5f5;
   border-radius: 3px;
+  float: left;
 }
 .category-menu .category-menu__item .category-menu__text {
   padding: 8px;
