@@ -127,13 +127,15 @@ html {
     top: 0;
 }
 .d-header_menu_mobile{
+        width: 100%;
+        padding: 7px;
     select{
         -webkit-box-sizing: border-box;
         border-radius: 3px;
         -webkit-font-smoothing: inherit;
         font-size: 13px;
         background: #FFF;
-        height: 35px !important;
+        height: 30px !important;
         cursor: text;
         display: inline-block;
         border: 1px solid #DDD;
