@@ -52,15 +52,16 @@ html {
     overflow-x: scroll;
     white-space: nowrap;
     width: 100%;
+    margin-bottom: 20px;
 
     .category-menu__item{
         list-style: none;
         margin-bottom: 2px;
-        margin: 5px;
         background: #f5f5f5;
         border-radius: 3px;
-        float: left;
-        width: 40px;
+        width: auto;
+        display: inline-table;
+        margin-right: 5px;
 
         .category-menu__text{
             padding: 8px;
@@ -90,7 +91,7 @@ html {
                 border-bottom: 1px  solid #8b572a;
             }
             h4{
-                font-size: 16px;
+                font-size: 14px;
                 margin-bottom:0;
                 color: inherit;
             }
