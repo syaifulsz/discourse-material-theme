@@ -411,6 +411,11 @@ html {
   color: #ffffff;
 }
 
+#login-form input[type='text'] {
+  border-bottom: 2px solid #01377b;
+  background: #F7F8FA;
+}
+
 .list-controls {
   margin-top: 0;
 }
