@@ -127,8 +127,7 @@ html {
     top: 0;
 }
 .d-header_menu_mobile{
-        width: 100%;
-        padding: 7px;
+
     select{
         -webkit-box-sizing: border-box;
         border-radius: 3px;
@@ -142,4 +141,9 @@ html {
         width: 100%;
         margin-bottom: 0;
     }
+}
+
+.d-header_menu{
+    width: 100%;
+    padding: 7px;
 }
