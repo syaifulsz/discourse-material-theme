@@ -125,6 +125,7 @@ html {
     padding: inherit;
     position: absolute;
     top: 0;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0), 0 1px 10px 0 rgba(0,0,0,0), 0 2px 4px -1px rgba(0,0,0,0);
 }
 .d-header_menu_mobile{
 
@@ -149,4 +150,7 @@ html {
 }
 .docked .d-header_menu {
     position: fixed;
+}
+#main-outlet{
+    padding-top: 50px;
 }
