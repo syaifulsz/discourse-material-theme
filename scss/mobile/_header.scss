@@ -102,8 +102,11 @@ html {
     padding-left: 10px
 }
 
-.topic-title{
-    .title{
-        color: #151B22;
+.topic-list{
+    .main-link {
+        a.title {
+            color: #151B22;
+        }
     }
+
 }
