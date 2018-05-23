@@ -48,11 +48,12 @@ html {
 
 
 .category-menu{
-    margin: 0;
-    overflow-x: scroll;
-    white-space: nowrap;
-    width: 100%;
-    margin-bottom: 20px;
+        background: #ffffff;
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 3px;
 
     .category-menu__item{
         list-style: none;
@@ -93,7 +94,7 @@ html {
             h4{
                 font-size: 14px;
                 margin-bottom:0;
-                color: inherit;
+
             }
             .text-desc{
                 font-size: 12px;
@@ -158,4 +159,11 @@ html {
 }
 #main-outlet{
     padding-top: 50px;
+}
+.d-header {
+    button.login-button {
+        .fa-user {
+            color: #ffffff;
+        }
+    }
 }
