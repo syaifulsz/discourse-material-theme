@@ -442,15 +442,16 @@ div.web-hook-container .form-horizontal input[type='text'],
 .category-menu .category-menu__item::after {
   background-image: url($webboard__icon_dark_sprite);
   content: '';
-  width: 27px;
+  width: 25px;
   height: 25px;
   position: absolute;
-  right: 10px;
-  top: 4px;
+  left: 15px;
+  top: 5px;
   background-repeat: no-repeat;
+  background-size: 350%;
 }
 .category-menu .category-menu__item .category-menu__text {
-  padding: 8px 8px 8px 20px;
+  padding: 8px 8px 8px 30px;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--newcar {
   color: #da4545;
