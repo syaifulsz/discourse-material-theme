@@ -438,7 +438,10 @@ div.web-hook-container .form-horizontal input[type='text'],
   margin-right: 5px;
   position: relative;
 }
-.category-menu .category-menu__item::after {
+.category-menu .category-menu__item .category-menu__text {
+  padding: 8px 8px 8px 30px;
+}
+.category-menu .category-menu__item .category-menu__text::after {
   background-image: url($webboard__icon_dark_sprite);
   content: '';
   width: 25px;
@@ -447,9 +450,6 @@ div.web-hook-container .form-horizontal input[type='text'],
   top: 5px;
   background-repeat: no-repeat;
   background-size: 350%;
-}
-.category-menu .category-menu__item .category-menu__text {
-  padding: 8px 8px 8px 30px;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--newcar {
   color: #da4545;

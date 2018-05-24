@@ -15,19 +15,18 @@
         margin-right: 5px;
         position: relative;
 
-        &::after {
-            background-image: url(unquote('$webboard__icon_dark_sprite'));
-            content: '';
-            width: 25px;
-            height: 25px;
-            position: absolute;
-            top: 5px;
-            background-repeat: no-repeat;
-            background-size: 350%;
-        }
-
         .category-menu__text{
             padding: 8px 8px 8px 30px;
+            &::after {
+                background-image: url(unquote('$webboard__icon_dark_sprite'));
+                content: '';
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 5px;
+                background-repeat: no-repeat;
+                background-size: 350%;
+            }
 
             &.category-menu__text--newcar{
                 color: #da4545;
