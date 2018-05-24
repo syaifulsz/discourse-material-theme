@@ -34,26 +34,44 @@
             &.category-menu__text--newcar{
                 color: #da4545;
                 border-bottom: 1px solid #da4545;
+                &:after{
+                    background-position: -1px -4px;
+                }
             }
             &.category-menu__text--motor{
                 color: #20a931;
                 border-bottom: 1px  solid #20a931;
+                &:after{
+                    background-position: -1px -4px;
+                }
             }
             &.category-menu__text--carcare{
                 color: #fec500;
                 border-bottom: 1px solid #fec500;
+                &:after{
+                    background-position: -1px -4px;
+                }
             }
             &.category-menu__text--user{
                 color: #4989da;
                 border-bottom: 1px  solid #4989da;
+                &:after{
+                    background-position: -1px -4px;
+                }
             }
             &.category-menu__text--usedcar{
                 color: #a556ff;
                 border-bottom: 1px  solid #a556ff;
+                &:after{
+                    background-position: -1px -4px;
+                }
             }
             &.category-menu__text--disscuss{
                 color: #8b572a;
                 border-bottom: 1px  solid #8b572a;
+                &:after{
+                    background-position: -1px -4px;
+                }
             }
             h4{
                 font-size: 14px;
