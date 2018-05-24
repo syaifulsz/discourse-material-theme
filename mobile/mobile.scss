@@ -474,6 +474,45 @@ div.web-hook-container .form-horizontal input[type='text'],
   margin-left: 0px;
 }
 
+.category-menu__text {
+  color: #fff;
+  position: absolute;
+  bottom: 45px;
+  z-index: 999;
+  left: 10px;
+  font-size: 11px;
+  line-height: 0.5em;
+  width: 215px;
+}
+.category-menu__text::after {
+  background-image: url($webboard__icon_dark_sprite);
+  content: '';
+  width: 27px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  background-repeat: no-repeat;
+}
+.category-menu__text.category-menu__text--newcar::after {
+  background-position: -1px -4px;
+}
+.category-menu__text.category-menu__text--motor::after {
+  background-position: -50px -3px;
+}
+.category-menu__text.category-menu__text--carcare::after {
+  background-position: -97px -4px;
+}
+.category-menu__text.category-menu__text--user::after {
+  background-position: -1px -48px;
+}
+.category-menu__text.category-menu__text--usedcar::after {
+  background-position: -50px -48px;
+}
+.category-menu__text.category-menu__text--disscuss::after {
+  background-position: -97px -48px;
+}
+
 .list-controls {
   margin-top: 0;
 }
