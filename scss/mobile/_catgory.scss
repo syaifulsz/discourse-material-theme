@@ -32,7 +32,7 @@
             &.category-menu__text--newcar{
                 color: #da4545;
                 border-bottom: 1px solid #da4545;
-                &:after{
+                &::after{
                     background-position: -1px -4px;
                 }
             }
@@ -46,7 +46,7 @@
             &.category-menu__text--carcare{
                 color: #fec500;
                 border-bottom: 1px solid #fec500;
-                &:after{
+                &::after{
                     background-position: -1px -4px;
                 }
             }
@@ -60,14 +60,14 @@
             &.category-menu__text--usedcar{
                 color: #a556ff;
                 border-bottom: 1px  solid #a556ff;
-                &:after{
+                &::after{
                     background-position: -1px -4px;
                 }
             }
             &.category-menu__text--disscuss{
                 color: #8b572a;
                 border-bottom: 1px  solid #8b572a;
-                &:after{
+                &::after{
                     background-position: -1px -4px;
                 }
             }

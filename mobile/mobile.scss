@@ -455,7 +455,7 @@ div.web-hook-container .form-horizontal input[type='text'],
   color: #da4545;
   border-bottom: 1px solid #da4545;
 }
-.category-menu .category-menu__item .category-menu__text.category-menu__text--newcar:after {
+.category-menu .category-menu__item .category-menu__text.category-menu__text--newcar::after {
   background-position: -1px -4px;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--motor {
@@ -469,7 +469,7 @@ div.web-hook-container .form-horizontal input[type='text'],
   color: #fec500;
   border-bottom: 1px solid #fec500;
 }
-.category-menu .category-menu__item .category-menu__text.category-menu__text--carcare:after {
+.category-menu .category-menu__item .category-menu__text.category-menu__text--carcare::after {
   background-position: -1px -4px;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--user {
@@ -483,14 +483,14 @@ div.web-hook-container .form-horizontal input[type='text'],
   color: #a556ff;
   border-bottom: 1px  solid #a556ff;
 }
-.category-menu .category-menu__item .category-menu__text.category-menu__text--usedcar:after {
+.category-menu .category-menu__item .category-menu__text.category-menu__text--usedcar::after {
   background-position: -1px -4px;
 }
 .category-menu .category-menu__item .category-menu__text.category-menu__text--disscuss {
   color: #8b572a;
   border-bottom: 1px  solid #8b572a;
 }
-.category-menu .category-menu__item .category-menu__text.category-menu__text--disscuss:after {
+.category-menu .category-menu__item .category-menu__text.category-menu__text--disscuss::after {
   background-position: -1px -4px;
 }
 .category-menu .category-menu__item .category-menu__text h4 {
