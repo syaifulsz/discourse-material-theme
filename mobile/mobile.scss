@@ -474,16 +474,6 @@ div.web-hook-container .form-horizontal input[type='text'],
   margin-left: 0px;
 }
 
-.category-menu__text {
-  color: #fff;
-  position: absolute;
-  bottom: 45px;
-  z-index: 999;
-  left: 10px;
-  font-size: 11px;
-  line-height: 0.5em;
-  width: 215px;
-}
 .category-menu__text::after {
   background-image: url($webboard__icon_dark_sprite);
   content: '';

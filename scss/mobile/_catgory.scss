@@ -1,12 +1,4 @@
 .category-menu__text{
-    color: #fff;
-    position: absolute;
-    bottom: 45px;
-    z-index: 999;
-    left: 10px;
-    font-size: 11px;
-    line-height: 0.5em;
-    width: 215px;
 
     &::after {
         background-image: url(unquote('$webboard__icon_dark_sprite'));
