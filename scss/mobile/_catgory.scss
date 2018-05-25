@@ -1,0 +1,87 @@
+.category-menu{
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 3px;
+        margin-left: 0;
+
+    .category-menu__item{
+        list-style: none;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        width: auto;
+        display: inline-table;
+        margin-right: 5px;
+        position: relative;
+
+        .category-menu__text{
+            padding: 8px 8px 8px 20px;
+
+            &::after {
+                background-image: url(unquote('$webboard__icon_dark_sprite'));
+                content: '';
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 5px;
+                left: 0px;
+                background-repeat: no-repeat;
+                background-size: 334%;
+            }
+
+            &.category-menu__text--newcar{
+                color: #da4545;
+                border-bottom: 1px solid #da4545;
+                &::after{
+                    background-position: -1px 4px;
+                }
+            }
+            &.category-menu__text--motor{
+                color: #20a931;
+                border-bottom: 1px  solid #20a931;
+                &:after{
+                    background-position: -33px 4px;
+                }
+            }
+            &.category-menu__text--carcare{
+                color: #fec500;
+                border-bottom: 1px solid #fec500;
+                &::after{
+                    background-position: -63px 4px;
+                }
+            }
+            &.category-menu__text--user{
+                color: #4989da;
+                border-bottom: 1px  solid #4989da;
+                &:after{
+                    background-position: -1px -27px;
+                }
+            }
+            &.category-menu__text--usedcar{
+                color: #a556ff;
+                border-bottom: 1px  solid #a556ff;
+                &::after{
+                    background-position:-33px -27px;
+                }
+            }
+            &.category-menu__text--disscuss{
+                color: #8b572a;
+                border-bottom: 1px  solid #8b572a;
+                &::after{
+                    background-position: -64px -27px;
+                }
+            }
+            h4{
+                font-size: 14px;
+                margin-bottom:0;
+
+            }
+            .text-desc{
+                font-size: 12px;
+                color: #151B22;
+                display: none;
+            }
+        }
+    }
+}
