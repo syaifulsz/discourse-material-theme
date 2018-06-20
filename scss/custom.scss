@@ -75,7 +75,14 @@ body textarea {
 }
 
 .d-header_menu .d-header_menu_desktop a {
-    color: #fff;
+   color: #fff;
+    padding: 8px 10px 8px;
+    display: block;
+}
+.d-header_menu .d-header_menu_desktop a:hover {
+   background: #cfd6df;
+   color: #0162dd;
+
 }
 
 .menu-panel {
