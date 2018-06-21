@@ -204,8 +204,7 @@ body textarea {
 }
 
 .d-header_menu .d-header_menu_desktop {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   margin-left: 5px;
   overflow: hidden;
 }
@@ -219,6 +218,13 @@ body textarea {
 
 .d-header_menu .d-header_menu_desktop a {
   color: #fff;
+  padding: 8px 10px 8px;
+  display: block;
+}
+
+.d-header_menu .d-header_menu_desktop a:hover {
+  background: #cfd6df;
+  color: #0162dd;
 }
 
 .menu-panel {
@@ -623,4 +629,7 @@ div.web-hook-container .form-horizontal input[type=text],
   .categoty-menu > li {
     width: 100%;
   }
+}
+.archetype-regular .category-section {
+  display: none;
 }
