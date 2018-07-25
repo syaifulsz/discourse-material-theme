@@ -48,22 +48,22 @@ $webboard__icon_sprite: '' !default;
   background-position: center top;
 }
 .category-menu .category-menu__item.category-menu__item--newcar {
-  background: url($webboard__category_newcar);
+  background: url("https://webboard.autospinn.com/uploads/default/original/1X/2b7fbb5c97960b94950ae03c5e8f0778a6cb6bb6.png");
 }
 .category-menu .category-menu__item.category-menu__item--motor {
-  background: url($webboard__category_motor);
+  background: url("https://webboard.autospinn.com/uploads/default/original/1X/1a66125d79314839be43089a178fbe606cf4de64.png");
 }
 .category-menu .category-menu__item.category-menu__item--carcare {
-  background: url($webboard__category_carcare);
+  background: url("https://webboard.autospinn.com/uploads/default/original/1X/8fce9e1a71cb0222676293809a9bcb0665742f33.png");
 }
 .category-menu .category-menu__item.category-menu__item--user {
-  background: url($webboard__category_user);
+  background: url("https://webboard.autospinn.com/uploads/default/original/1X/29444f8e0cbbc866644e694545e900acb1899e5c.png");
 }
 .category-menu .category-menu__item.category-menu__item--usedcar {
-  background: url($webboard__category_usedcar);
+  background: url("https://webboard.autospinn.com/uploads/default/original/1X/ef3ce50114a097ff81ad899df4ab1f1592774dc0.png");
 }
 .category-menu .category-menu__item.category-menu__item--discuss {
-  background: url($webboard__category_discuss);
+  background: url("https://webboard.autospinn.com/uploads/default/original/1X/86961acb41a64ec34f642cf81326951cad4e01fa.png");
 }
 .category-menu .category-menu__text {
   color: #fff;
@@ -152,7 +152,7 @@ $webboard__icon_sprite: '' !default;
 }
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #151B22;
 }
 
@@ -160,7 +160,7 @@ body button,
 body input,
 body select,
 body textarea {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .d-header_menu_desktop.hidden {
@@ -204,8 +204,7 @@ body textarea {
 }
 
 .d-header_menu .d-header_menu_desktop {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   margin-left: 5px;
   overflow: hidden;
 }
@@ -219,6 +218,13 @@ body textarea {
 
 .d-header_menu .d-header_menu_desktop a {
   color: #fff;
+  padding: 8px 10px 8px;
+  display: block;
+}
+
+.d-header_menu .d-header_menu_desktop a:hover {
+  background: #cfd6df;
+  color: #0162dd;
 }
 
 .menu-panel {
@@ -237,37 +243,37 @@ body textarea {
   color: #fff;
 }
 
-#share-link input[type=text],
-.display-row input[type=text],
-.user-preferences input[type=text],
+#share-link input[type='text'],
+.display-row input[type='text'],
+.user-preferences input[type='text'],
 .user-preferences .controls .static,
-.admin-container .controls.username input[type=text],
-.admin-controls input[type=text],
-.admin-customize.admin-embedding input[type=text],
-.admin-customize .show-current-style h1 input[type=text],
-div.badges .form-horizontal input[type=text],
-div.groups .form-horizontal input[type=text],
-div.web-hook-container .form-horizontal input[type=text],
-.admin-container div.emoji input[type=text],
-.content-editor .email-template input[type=text],
-.email-preview-digest .controls input[type=text],
-.permalink-title ~ div input[type=text],
-.screened-ip-addresses .admin-container input[type=text],
+.admin-container .controls.username input[type='text'],
+.admin-controls input[type='text'],
+.admin-customize.admin-embedding input[type='text'],
+.admin-customize .show-current-style h1 input[type='text'],
+div.badges .form-horizontal input[type='text'],
+div.groups .form-horizontal input[type='text'],
+div.web-hook-container .form-horizontal input[type='text'],
+.admin-container div.emoji input[type='text'],
+.content-editor .email-template input[type='text'],
+.email-preview-digest .controls input[type='text'],
+.permalink-title ~ div input[type='text'],
+.screened-ip-addresses .admin-container input[type='text'],
 .settings .setting .input-setting-string,
 .site-texts .search-area .site-text-search,
-.value-list input[type=text],
+.value-list input[type='text'],
 .value-list .value,
-.watched-word-form input[type=text],
-.create-account input[type=email],
-.create-account input[type=password],
-.create-account input[type=text],
-#login-form input[type=email],
-#login-form input[type=password],
-#login-form input[type=text],
-.search-menu input[type=text],
-.search.row input[type=date],
-.search.row input[type=number],
-.search.row input[type=text]:not(.user-selector),
+.watched-word-form input[type='text'],
+.create-account input[type='email'],
+.create-account input[type='password'],
+.create-account input[type='text'],
+#login-form input[type='email'],
+#login-form input[type='password'],
+#login-form input[type='text'],
+.search-menu input[type='text'],
+.search.row input[type='date'],
+.search.row input[type='number'],
+.search.row input[type='text']:not(.user-selector),
 .upload-selector .radios .inputs input {
   border-bottom: 2px solid #01377b;
 }
@@ -420,9 +426,9 @@ body .nav-pills > li > a {
 .fps-result,
 .search-advanced,
 .small-action,
-.static-faq .body-page [itemprop=mainContentOfPage],
-.static-privacy .body-page [itemprop=mainContentOfPage],
-.static-tos .body-page [itemprop=mainContentOfPage],
+.static-faq .body-page [itemprop='mainContentOfPage'],
+.static-privacy .body-page [itemprop='mainContentOfPage'],
+.static-tos .body-page [itemprop='mainContentOfPage'],
 .admin-controls,
 .admin-customize .admin-container > .about,
 .admin-customize .show-current-style,
@@ -530,37 +536,37 @@ nav.post-controls .post-admin-menu {
   background: #fff;
 }
 
-#share-link input[type=text],
-.display-row input[type=text],
-.user-preferences input[type=text],
+#share-link input[type='text'],
+.display-row input[type='text'],
+.user-preferences input[type='text'],
 .user-preferences .controls .static,
-.admin-container .controls.username input[type=text],
-.admin-controls input[type=text],
-.admin-customize.admin-embedding input[type=text],
-.admin-customize .show-current-style h1 input[type=text],
-div.badges .form-horizontal input[type=text],
-div.groups .form-horizontal input[type=text],
-div.web-hook-container .form-horizontal input[type=text],
-.admin-container div.emoji input[type=text],
-.content-editor .email-template input[type=text],
-.email-preview-digest .controls input[type=text],
-.permalink-title ~ div input[type=text],
-.screened-ip-addresses .admin-container input[type=text],
+.admin-container .controls.username input[type='text'],
+.admin-controls input[type='text'],
+.admin-customize.admin-embedding input[type='text'],
+.admin-customize .show-current-style h1 input[type='text'],
+div.badges .form-horizontal input[type='text'],
+div.groups .form-horizontal input[type='text'],
+div.web-hook-container .form-horizontal input[type='text'],
+.admin-container div.emoji input[type='text'],
+.content-editor .email-template input[type='text'],
+.email-preview-digest .controls input[type='text'],
+.permalink-title ~ div input[type='text'],
+.screened-ip-addresses .admin-container input[type='text'],
 .settings .setting .input-setting-string,
 .site-texts .search-area .site-text-search,
-.value-list input[type=text],
+.value-list input[type='text'],
 .value-list .value,
-.watched-word-form input[type=text],
-.create-account input[type=email],
-.create-account input[type=password],
-.create-account input[type=text],
-#login-form input[type=email],
-#login-form input[type=password],
-#login-form input[type=text],
-.search-menu input[type=text],
-.search.row input[type=date],
-.search.row input[type=number],
-.search.row input[type=text]:not(.user-selector),
+.watched-word-form input[type='text'],
+.create-account input[type='email'],
+.create-account input[type='password'],
+.create-account input[type='text'],
+#login-form input[type='email'],
+#login-form input[type='password'],
+#login-form input[type='text'],
+.search-menu input[type='text'],
+.search.row input[type='date'],
+.search.row input[type='number'],
+.search.row input[type='text']:not(.user-selector),
 .upload-selector .radios .inputs input {
   background: #F7F8FA;
 }
@@ -612,7 +618,7 @@ div.web-hook-container .form-horizontal input[type=text],
   }
 
   .topic-list tbody td:first-of-type,
-.topic-list tbody th:first-of-type {
+  .topic-list tbody th:first-of-type {
     padding-left: 10px;
   }
 
@@ -623,4 +629,7 @@ div.web-hook-container .form-horizontal input[type=text],
   .categoty-menu > li {
     width: 100%;
   }
+}
+.archetype-regular .category-section {
+  display: none;
 }
