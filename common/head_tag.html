@@ -17,11 +17,15 @@ $(document).ready(function() {
     	location.href = 'https://www.autospinn.com';
     });
 
-    $('a.title').on('click', function() {
+    function hideSuggestedTopicsMessageBug() {
         var suggestedTopicsMessage = $('.suggested-topics-message');
         if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
             suggestedTopicsMessage.hide();
         }
+    }
+
+    $('a.title').on('click', function() {
+        hideSuggestedTopicsMessageBug();
     });
 });
 </script>
