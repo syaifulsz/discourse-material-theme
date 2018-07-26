@@ -23,14 +23,17 @@ $(document).ready(function() {
         hideSuggestedTopicsMessageBug();
     });
 
+    /**
+     * @TODO Temporarily hide topic message with error due to translation key is missing from Discourse
+     */
     function hideSuggestedTopicsMessageBug() {
         var suggestedTopicsMessage = $('.suggested-topics-message');
         if (suggestedTopicsMessage.length) {
-            console.log('hideSuggestedTopicsMessageBug ---- 1');
+            // console.log('hideSuggestedTopicsMessageBug ---- 1');
             if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
                 suggestedTopicsMessage.hide();
             }
-            console.log('hideSuggestedTopicsMessageBug ---- 2');
+            // console.log('hideSuggestedTopicsMessageBug ---- 2');
         }
     }
 
