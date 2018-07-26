@@ -11,10 +11,16 @@
 <!-- <link href="https://webboard.autospinn.com/uploads/default/original/1X/d1c603d712a9741a97d05ee061152ec776e87dbe.png" rel="shortcut icon"> -->
 
 <script>
+
 $(document).ready(function() {
+
     $('.d-header .title a').on('click', function(e) {
     	e.preventDefault();
     	location.href = 'https://www.autospinn.com';
+    });
+
+    $(document).ajaxComplete(function() {
+        hideSuggestedTopicsMessageBug();
     });
 
     function hideSuggestedTopicsMessageBug() {
@@ -27,14 +33,5 @@ $(document).ready(function() {
     }
 
     hideSuggestedTopicsMessageBug();
-
-    $(document).on('click', 'a.title', function() {
-        console.log('hideSuggestedTopicsMessageBug click 1');
-        setTimeout(function() {
-            console.log('hideSuggestedTopicsMessageBug 1');
-            hideSuggestedTopicsMessageBug();
-            console.log('hideSuggestedTopicsMessageBug 2');
-        }, 500);
-    });
 });
 </script>
