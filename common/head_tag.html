@@ -24,12 +24,14 @@ $(document).ready(function() {
     });
 
     function hideSuggestedTopicsMessageBug() {
-        console.log('hideSuggestedTopicsMessageBug ---- 1');
         var suggestedTopicsMessage = $('.suggested-topics-message');
-        if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
-            suggestedTopicsMessage.hide();
+        if (suggestedTopicsMessage.length) {
+            console.log('hideSuggestedTopicsMessageBug ---- 1');
+            if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
+                suggestedTopicsMessage.hide();
+            }
+            console.log('hideSuggestedTopicsMessageBug ---- 2');
         }
-        console.log('hideSuggestedTopicsMessageBug ---- 2');
     }
 
     hideSuggestedTopicsMessageBug();
