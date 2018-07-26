@@ -28,7 +28,8 @@ $(document).ready(function() {
 
     hideSuggestedTopicsMessageBug();
 
-    $('a.title').on('click', function() {
+    $(document).on('click', 'a.title', function() {
+        console.log('hideSuggestedTopicsMessageBug click 1');
         setTimeout(function() {
             console.log('hideSuggestedTopicsMessageBug 1');
             hideSuggestedTopicsMessageBug();
