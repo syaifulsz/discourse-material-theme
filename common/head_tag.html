@@ -18,16 +18,25 @@ $(document).ready(function() {
     });
 
     function hideSuggestedTopicsMessageBug() {
+        console.log('hideSuggestedTopicsMessageBug ---- 1');
         var suggestedTopicsMessage = $('.suggested-topics-message');
         if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
             suggestedTopicsMessage.hide();
         }
+        console.log('hideSuggestedTopicsMessageBug ---- 2');
     }
 
     hideSuggestedTopicsMessageBug();
 
     $('a.title').on('click', function() {
+
+        console.log('hideSuggestedTopicsMessageBug 1');
         hideSuggestedTopicsMessageBug();
+        console.log('hideSuggestedTopicsMessageBug 2');
+
+        setTimeout(function() {
+            console.log('hideSuggestedTopicsMessageBug 3');
+        }, 500);
     });
 });
 </script>
