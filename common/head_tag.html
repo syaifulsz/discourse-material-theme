@@ -29,13 +29,10 @@ $(document).ready(function() {
     hideSuggestedTopicsMessageBug();
 
     $('a.title').on('click', function() {
-
-        console.log('hideSuggestedTopicsMessageBug 1');
-        hideSuggestedTopicsMessageBug();
-        console.log('hideSuggestedTopicsMessageBug 2');
-
         setTimeout(function() {
-            console.log('hideSuggestedTopicsMessageBug 3');
+            console.log('hideSuggestedTopicsMessageBug 1');
+            hideSuggestedTopicsMessageBug();
+            console.log('hideSuggestedTopicsMessageBug 2');
         }, 500);
     });
 });
