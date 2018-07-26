@@ -17,9 +17,11 @@ $(document).ready(function() {
     	location.href = 'https://www.autospinn.com';
     });
 
-    var suggestedTopicsMessage = $('.suggested-topics-message');
-    if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
-        suggestedTopicsMessage.hide();
-    }
+    $('a.title').on('click', function() {
+        var suggestedTopicsMessage = $('.suggested-topics-message');
+        if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
+            suggestedTopicsMessage.hide();
+        }
+    });
 });
 </script>
