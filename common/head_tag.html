@@ -1,11 +1,40 @@
 <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono|Roboto+Slab" rel="stylesheet"> -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-
 <link href="https://webboard.autospinn.com/uploads/default/original/1X/d1c603d712a9741a97d05ee061152ec776e87dbe.png" rel="apple-touch-icon" sizes="180x180">
 <link href="https://webboard.autospinn.com/uploads/default/original/1X/61b5d00849e3e81a31b3f54cb800db620bdf0c4f.png" rel="icon" sizes="48x48">
 <link href="https://webboard.autospinn.com/uploads/default/original/1X/d0c01722a91057853f1c16d3258547e27cd72f61.png" rel="icon" sizes="32x32">
 <link href="https://webboard.autospinn.com/uploads/default/original/1X/22dd74ce8ed7a239d5160e1873d81b21aa2c592b.png" rel="icon" sizes="16x16">
 <link href="https://webboard.autospinn.com/uploads/default/original/1X/077d5f0b7a2cb156776f9a17af605b94da14d2cb.png" rel="mask-icon" color="#2D3A75">
 <!-- <link href="https://webboard.autospinn.com/uploads/default/original/1X/d1c603d712a9741a97d05ee061152ec776e87dbe.png" rel="shortcut icon"> -->
+
+<script>
+
+$(document).ready(function() {
+
+    $('.d-header .title a').on('click', function(e) {
+    	e.preventDefault();
+    	location.href = 'https://www.autospinn.com';
+    });
+
+    $(document).ajaxComplete(function() {
+        hideSuggestedTopicsMessageBug();
+    });
+
+    /**
+     * @TODO Temporarily hide topic message with error due to translation key is missing from Discourse
+     */
+    function hideSuggestedTopicsMessageBug() {
+        var suggestedTopicsMessage = $('.suggested-topics-message');
+        if (suggestedTopicsMessage.length) {
+            // console.log('hideSuggestedTopicsMessageBug ---- 1');
+            if (suggestedTopicsMessage.text().toLowerCase().indexOf('topic.read_more_mf') >= 0) {
+                suggestedTopicsMessage.hide();
+            }
+            // console.log('hideSuggestedTopicsMessageBug ---- 2');
+        }
+    }
+
+    hideSuggestedTopicsMessageBug();
+});
+</script>
